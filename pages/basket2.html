@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<title>basket page</title>
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+	<meta charset="utf-8">
+	<script type="text/javascript" src="../js/js.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+</head>
+<body class="basket_body">
+	<header>
+		<div class="tit">
+			<img src="../img/logo.png">
+			<p>장바구니</p>
+		</div>
+	</header>
+	<main id="maincontainer">
+		<div class="line">
+			<ul>
+				<li><span><p style="color:  #00C6FF">01 장바구니</p><img src="../img/next.png"></span></li>
+				<li><span><p>02 주문결제</p><img src="../img/next.png"></span></li>
+				<li><span><p>03 주문완료</p></span></li>
+			</ul>
+		</div>
+		<!-- 장바구니 -->
+
+		<div class="cart_area">
+			<div class="cart_menu">
+				<input type="checkbox" id="item_all_select" class="input_chk" name="">
+				<label for="item_all_select">
+					<span class="sp_or"></span>
+					<span>선택</span>
+				</label>
+				<button class="btn_del"><span class="sp_or"></span><span class="txt">삭제</span></button>
+			</div>
+			<!-- cart menu -->
+			<ul class="lst_cart">
+				<li>
+					<div class="tit_cart">
+						<input type="checkbox" class="input_chk" name="">
+						<label>
+							<span class="sp_or"></span>
+						</label>
+						<h3>
+							<a href=""><span>네이처블랑 에어볼 키친타올 150매 4롤 3개 총 12롤</span></a>
+						</h3>
+					</div>
+					<div class="cart_info">
+						<a href=""><img src="../img/img.PNG"></a>
+						<div class="txt">
+							<div class="txt_view">
+								<p class="price">
+									<strong class="fwb">11,900</strong>
+									<span class="in_txt">원</span>
+								</p>
+							</div>
+						</div>
+						<div class="buy_area">
+							<div class="item_qty">
+								<b class="for_a11y">상품개수 선택</b>
+								<div class="item_qty_wrap">
+									<input class="item_qty_count" type="number" min="10" max="100" value="1">
+									<button class="btn_plus"><i class="sp_or btn_qty_plus"></i></button>
+									<button class="btn_minus"><i class="sp_or btn_qty_minus"></i></button>
+								</div>
+								<div class="btn2_area">
+									<button>즉시구매</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="btn_del">
+						<span class="sp_or"></span>
+					</button>
+				</li>
+			</ul>
+			<div class="cart_total">
+				<div class="total_info full">
+					<div class="total_tit">
+						<h3 class="tit">주문예정정보 (상품2개)</h3>
+					</div>
+					<div class="total_cont">
+						<ul class="total_lst">
+							<li class="total">
+								<strong class="tit">결제 예정금액</strong>
+								<span class="total_price"><strong class="fwb">1,999,999</strong><span class="won">원</span></span>
+							</li>
+						</ul>
+						<div class="btn_area">
+							주문하기
+						</div>
+					</div>
+				</div>
+				<a href="">
+				<img src="http://pics.g9.co.kr/event/banner/BM_orderBNR_pc_360x86_2.jpg"></a>
+			</div>
+
+		</div>
+		<!-- cart_area end -->
+	</main>
+	<footer>
+		<div class="footer">
+			<div class="major_info">
+				<ul class="row">
+					<li><a href="">로그인</a></li>
+					<li><a href="">공지사항</a></li>
+					<li><a href="">사업자정보확인</a></li>
+					<li><a href="">개인정보처리방침</a></li>
+					<li><a href="">이용약관</a></li>
+				</ul>
+			</div>
+			<div class="company_info">
+				<span>이베이코리아 유한책임회사 사업자 정보</span>
+				<div class="info">
+				<span>고객센터: </span><a href="">1644-5702</a>
+			</div>
+			</div>
+			
+			<div id="right_author">
+				<span>G9는 통신판매중개자이며 통신판매 당사자가 아닙니다.</span>
+				<span>따라서 G9는 상품, 거래정보 및 거래에 대해서 책임을 지지 않습니다.</span>
+				<span>Copyrightⓒ eBay Korea LLC All rights reserved.</span>
+			</div>
+			
+		</div>
+	</footer>
+
+</body>
+</html>

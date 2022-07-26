@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>로그인 - G9</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/main_1.css">
+  <link rel="stylesheet" href="../css/loginpage.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+  <script src="../js/login_placeholder.js"></script>
+
+</head>
+
+<body>
+  <div id="wrapper">
+
+    <div class="login_content">
+      <h1 class="login_logo">
+        <a href="main.html">
+        </a>
+      </h1>
+      <div class="login_messagebox">
+        <span class="logo_gmarket"></span>
+        아이디로 이용이 가능합니다.
+      </div>
+      <form id="login_member">
+        <div id="form_member_login" class="login_box">
+          <ul class="form_login_list">
+            <li>
+              <input type="text" id="memberlogin_id" placeholder="아이디">
+            </li>
+            <li>
+              <input type="password" id="memberlogin_pw" placeholder="비밀번호">
+            </li>
+          </ul>
+          <label class="login_saveid">
+            <input id="Memberlogin_saveid" type="checkbox" value="true" style="width:20px; height:20px">
+            <span id="login_saveid_txt">아이디 기억하기</span>
+          </label>
+          <div class="login_btn_wrap">
+            <button type="button" name="login_btn" id="login_btn" style="margin-bottom: 53px;">로그인</button>
+            <button type="button" name="login_kakao" id="login_kakao">
+              <span class="login_kakao_logo"></span> 카카오 로그인</button>
+          </div>
+          <div class="login_link_group">
+            <a href="#">회원가입</a>
+            <span class="login_bar">|</span>
+            <a href="#">아이디 찾기</a>
+            <span class="login_bar">|</span>
+            <a href="#">비밀번호 찾기</a>
+          </div>
+
+
+        </div>
+
+      </form>
+
+      <form id="login_nonmember">
+        <div class="login_nonmember_box">
+          <p>비회원 주문 조회</p>
+          <ul class="form_login_list">
+            <li>
+              <input type="text" id="nonmemberlogin_name" placeholder="주문자 이름">
+            </li>
+            <li>
+              <input type="text" id="nonmemberlogin_phone" placeholder="휴대폰 번호">
+            </li>
+            <li>
+              <input type="password" id="nonmemberlogin_pw" placeholder="주문 비밀번호">
+
+            </li>
+
+          </ul>
+          <div class="nonmember_message">
+            주문 시 입력한 주문자 명과 휴대폰 번호, 주문 비밀번호를 정확히 입력해주세요.
+          </div>
+          <div class="nonmember_btn_wrap">
+            <button type="button" name="nonmember_btn" id="nonmember_btn">비회원 주문내역 조회</button>
+          </div>
+
+        </div>
+
+      </form>
+
+    </div>
+
+    <div id="footer" style="padding-left:0px;">
+      <div class="footer">
+        <div class="footermenu">
+          <ul class="f_list">
+            <li clas="f_menu"><a href="#" class="link_area"><span class="menu_text">공지사항</span></a></li>
+            <li clas="f_menu"><a href="#" class="link_area"><span class="menu_text">G9 판매안내</span></a></li>
+            <li clas="f_menu"><a href="#" class="link_area"><span class="menu_text">이용약관</span></a></li>
+            <li clas="f_menu"><a href="#" class="link_area"><span class="menu_text">전자금융거래약관</span></a></li>
+            <li clas="f_menu"><a href="#" class="link_area"><span class="menu_text" style="font-weight:bold;">개인정보처리방침</span></a></li>
+            <li clas="f_menu"><a href="#" class="link_area"><span class="menu_text">청소년보호정책</span></a></li>
+            <li clas="f_menu"><a href="#" class="link_area"><span class="menu_text">G마켓</span></a></li>
+          </ul>
+        </div>
+        <div class="footerinfo">
+          <div class="helpcenter">
+            <h2>
+              <strong class="motto">
+                지구에서
+                <br>
+                가장 친절한 고객센터
+              </strong>
+              <span class="tel">
+                1644-5702
+              </span>
+            </h2>
+
+            <dl class="desc">
+              <dt class="desc-title">상담가능시간</dt>
+              <dd class="desc-cont">오전9시-오후6시 토요일,공휴일 휴무</dd>
+
+              <dt class="desc-title">주소</dt>
+              <dd class="desc-cont">경기도 부천시 원미구 상동 461 투나 6층</dd>
+
+              <dt class="desc-title">E-Mail</dt>
+              <dd class="desc-cont">g9_help@g9.co.kr</dd>
+
+              <dd class="desc-cont">
+                <span class="desc_text"><a href="#">분쟁처리절차</a></span>
+
+              </dd>
+
+            </dl>
+
+          </div>
+          <div class="companyinfo">
+            <div class="company_info">
+              <h2 class="section_title">이베이코리아 유한책임회사</h2>
+              <div>
+                <dl class="desc">
+                  <dd class="desc-cont">서울시 강남구 테헤란로 152 (역삼동 강남파이낸스센터)</dd>
+                  <dd class="desc-cont">업무집행자 : 변광윤 Fax : 02-589-8842 사업자정보확인</dd>
+                  <dd class="desc-cont">통신판매업신고 : 강남 10630호</dd>
+                </dl>
+              </div>
+            </div>
+
+            <div class="company_cs">
+              <h2 class="section_title">전자금융분쟁처리 안내더보기</h2>
+              <div>
+                <dl class="desc">
+                  <dt class="desc-title">TEL</dt>
+                  <dd class="desc-cont">1644 - 5702</dd>
+                  <dt class="desc-title">Fax</dt>
+                  <dd class="desc-cont">02-589-8844</dd>
+                  <dt class="desc-title">Mail</dt>
+                  <dd class="desc-cont">gmk_cs@corp.gmarket.co.kr</dd>
+                </dl>
+                <div class="company_auth">
+                  <h2 class="section_title"><a href="#">저작권 침해 신고하기 </a> </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footercopyright">
+          <p class="desc">
+            G9는 G마켓에서 만든 패밀리사이트입니다. <br>
+            이베이코리아 유한책임회사 사이트의 상품/판매자/쇼핑 정보, 콘텐츠, UI 등에 대한 무단 복제, 전송, 배포, 스크래핑 등의 행위는 저작권법, 콘텐츠산업진흥법 등에 의하여 엄격히 금지됩니다.
+            <a href="#" style="color:#808080; font-weight:400;">콘텐츠 산업 진흥법에 따른 표시</a>
+            <br>
+            G9는 통신판매중개자이며 통신판매 당사자가 아닙니다. 따라서 G9는 상품, 거래정보 및 거래에 대하여 책임을 지지 않습니다.
+          </p>
+          <p class="copyright">Copyrightⓒ eBay Korea LLC All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

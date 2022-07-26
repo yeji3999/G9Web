@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>트렌드 라이프 쇼핑 G9</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/css.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/js.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+</head>
+
+<body class="detail_page">
+
+  <div id="wrapper">
+    <div id="main_nav">
+      <div class="main_nav">
+        <h1 id="logoimg">
+          <a href="main.html" class="link_area">
+            <img src="http://image.g9.co.kr/i/2019/10/31/f13c6efbc82245bc.gif" alt="logo" style="width:69px; height:50px">
+          </a>
+        </h1>
+
+        <div class="category">
+          <span class=link_text>카테고리</span>
+        </div>
+
+        <div class="menu_scroll">
+          <div class="menu1">
+            <ul class="menu1_body">
+              <li class="menu1list"><a href="#"><span class="link_text">핫딜</span></a></li>
+              <li class="menu1list"><a href="#"><span class="link_text">랭킹</span></a></li>
+              <li class="menu1list"><a href="#"><span class="link_text">해외직구</span></a></li>
+              <li class="menu1list"><a href="#"><span class="link_text">맛지구</span></a></li>
+              <li class="menu1list"><a href="#"><span class="link_text">홈(HOME)술</span></a></li>
+              <li class="menu1list"><a href="#"><span class="link_text">명품관</span></a></li>
+              <li class="menu1list"><a href="#"><span class="link_text">백화점</span></a></li>
+              <li class="menu1list"><a href="#"><span class="link_text">뷰티샵</span></a></li>
+              <li class="menu1list"><a href="#"><span class="link_text">뭐하지?</span></a></li>
+            </ul>
+          </div>
+
+          <div class="menu2">
+            <ul class="menu2_body">
+              <li class="menu2list"><a href="#"><span class="link_text2">e쿠폰</span></a></li>
+              <li class="menu2list"><a href="#"><span class="link_text2">도서·음반</span></a></li>
+              <li class="menu2list"><a href="#"><span class="link_text2">항공권</span></a></li>
+              <li class="menu2list"><a href="#"><span class="link_text2">쿠폰·이벤트</span></a></li>
+              <li class="menu2list"><a href="#"><span class="link_text2">About G9</span></a></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="header">
+      <div class="header">
+        <div class="search">
+          <div class="searchbox">
+            <form name="searchform" onsubmit="return false;" class="searchform">
+              <fieldset>
+                <div class="searcharea">
+                  <label class="placeholder" for="keyword" id="labelSearchBox">
+                    전상품 무료배송, 반품비 월 1만원 지원
+                  </label>
+                  <input class="inputSearchbox" id="keyword" type="text" onclick="searchEvent()">
+                  <button type="searchbtn" id="btnsearch"></button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+
+          <div id="searchSuggest">
+            <div class="recentlySearch">
+              <h3>최근 검색</h3>
+              <div class="resultNone">
+                <span class="menu_text">최근검색어가 없습니다</span>
+              </div>
+            </div>
+
+            <div class="popularSearch">
+              <h3>인기 검색어</h3>
+              <span class="popular_time"> 2020.08.19 11시 기준</span>
+
+              <ol class="popularSearchList">
+                <li class="pslist">
+                  <a href="#" class="popular_link">
+                    <span class="pslist_num">1</span>
+                    <span class="menu_text">갤럭시탭s7</span>
+                  </a>
+                </li>
+                <li class="pslist">
+                  <a href="#" class="popular_link">
+                    <span class="pslist_num">2</span>
+                    <span class="menu_text">갤럭시탭s7</span>
+                  </a>
+                </li>
+                <li class="pslist">
+                  <a href="#" class="popular_link">
+                    <span class="pslist_num">3</span>
+                    <span class="menu_text">갤럭시탭s7</span>
+                  </a>
+                </li>
+                <li class="pslist">
+                  <a href="#" class="popular_link">
+                    <span class="pslist_num">4</span>
+                    <span class="menu_text">갤럭시탭s7</span>
+                  </a>
+                </li>
+                <li class="pslist">
+                  <a href="#" class="popular_link">
+                    <span class="pslist_num">5</span>
+                    <span class="menu_text">갤럭시탭s7</span>
+                  </a>
+                </li>
+              </ol>
+              <ol class="popularSearchList">
+                <li class="pslist">
+                  <a href="#" class="popular_link">
+                    <span class="pslist_num">6</span>
+                    <span class="menu_text">갤럭시탭s7</span>
+                  </a>
+                </li>
+                <li class="pslist">
+                  <a href="#" class="popular_link">
+                    <span class="pslist_num">7</span>
+                    <span class="menu_text">갤럭시탭s7</span>
+                  </a>
+                </li>
+                <li class="pslist">
+                  <a href="#" class="popular_link">
+                    <span class="pslist_num">8</span>
+                    <span class="menu_text">갤럭시탭s7</span>
+                  </a>
+                </li>
+                <li class="pslist">
+                  <a href="#" class="popular_link">
+                    <span class="pslist_num">9</span>
+                    <span class="menu_text">갤럭시탭s7</span>
+                  </a>
+                </li>
+                <li class="pslist">
+                  <a href="#" class="popular_link">
+                    <span class="pslist_num">10</span>
+                    <span class="menu_textt">갤럭시탭s7</span>
+                  </a>
+                </li>
+              </ol>
+            </div>
+            <div class="searchClose">
+              <button type="close" name="button" class="closebtn" onclick="suggestClose()"><a href="#" id="closebtn"></a></button>
+            </div>
+          </div>
+
+        </div>
+        <div class="topmenu" onclick="suggestClose()">
+          <ul class="utilmenu">
+            <li class="menu_cart"><a href="#" id="btncart"></a> </li>
+            <li class="menu_favorite"><a href="#" id="btnfavorite"></a></li>
+            <li class="menu_mypage"><button type="button" id="btnmypage"></button>
+              <div class="mypage">
+                <div class="mypagebox">
+                  <div class="mypage_menubox">
+                    <ul class=mypage_menu_usr>
+                      <li class="mypage_menulist">
+                        <a href="#" class="mypagelink">
+                          <span class="mypagetext">로그인</span>
+                        </a>
+                      </li>
+                      <li class="mypage_menulist">
+                        <a href="#" class="mypagelink">
+                          <span class="mypagetext">회원가입</span>
+                        </a>
+                      </li>
+                    </ul>
+
+                    <ul class="mypage_menu">
+
+                      <li class="mypage_menulist">
+                        <a href="#" class="mypagelink">
+                          <span class="mypagetext">주문배송조회</span>
+                        </a>
+                      </li>
+                      <li class="mypage_menulist">
+                        <a href="#" class="mypagelink">
+                          <span class="mypagetext">찜한상품</span>
+                        </a>
+                      </li>
+                      <li class="mypage_menulist">
+                        <a href="#" class="mypagelink">
+                          <span class="mypagetext">찜한브랜드</span>
+                        </a>
+                      </li>
+                      <li class="mypage_menulist">
+                        <a href="#" class="mypagelink">
+                          <span class="mypagetext">최근본상품</span>
+                        </a>
+                      </li>
+                      <li class="mypage_menulist">
+                        <a href="#" class="mypagelink">
+                          <span class="mypagetext">G9쿠폰</span>
+                        </a>
+                      </li>
+                      <li class="mypage_menulist">
+                        <a href="#" class="mypagelink">
+                          <span class="mypagetext">G9캐시</span>
+                        </a>
+                      </li>
+                      <li class="mypage_menulist">
+                        <a href="#" class="mypagelink">
+                          <span class="mypagetext">나의정보</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <!-- mypage_menu -->
+                  </div>
+                  <!-- mypage menubox -->
+                </div>
+                <!-- mypage box -->
+              </div>
+              <!-- mypage -->
+            </li>
+            <!-- menu_mypage -->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- detail -->
+    <div class="vip_contents">
+      <div class="select_location">
+        <a href="">HOME</a>
+        <span>></span>
+        <a href=""><div class="mini_menu me1"><p>주방 생필품</p><span></span>
+          <ul id="list1">
+            <li><a class="list" href="">해외직구</a></li>
+            <li><a class="list" href="">맛있는 지구</a></li>
+            <li><a class="list" href="">식품</a></li>
+            <li><a class="list" href="">뷰티</a></li>
+          </ul>
+        </div>
+        </a>
+        <span>></span>
+        <a href=""><div class="mini_menu me2"><p>화장지 키친타올</p><span></span>
+          <ul id="list2">
+            <li><a class="list" href="">화장지</a></li>
+            <li><a class="list" href="">화장지</a></li>
+            <li><a class="list" href="">화장지</a></li>
+            <li><a class="list" href="">화장지</a></li>
+          </ul>
+        </div>
+        </a>
+        <span>></span>
+        <a href=""><div class="mini_menu me3"><p style="color: #0767f1">롤화장지</p><span></span>
+          <ul id="list3">
+            <li><a class="list" href="">롤화장지</a></li>
+            <li><a class="list" href="">롤화장지</a></li>
+            <li><a class="list" href="">롤화장지</a></li>
+            <li><a class="list" href="">롤화장지</a></li>
+          </ul>
+        </div></a>
+      </div>
+       <!-- detail page top menu bar end -->
+      <div class="vip_goods_datas">
+      <div class="goods_vi">
+        <div class="vip_v3_inner">
+          <div class="box_banner">
+            <img src="http://pics.g9.co.kr/pc/item/image-banner--delivery.png">
+          </div>
+          <div class="vip_v3_info">
+            <div class="vip_v3_thumb">
+              <img src="http://image.g9.co.kr/g/1752514991/n?ts=1596777965000">
+            </div>
+            <div class="vip_v3_subject">
+              <div class="v3_item_info">
+                <p class="favorite">
+                  <a href="" style="display: block;cursor: pointer;" title="찜하기 버튼"><span>3</span></a>
+                </p>
+                <p class="subj">
+                  <strong id="subjText1">에어볼 엠보싱으로</strong>
+                  <em id="subjText2">빠르게 기름기를 흡수하여 안전해요!</em>
+                </p>
+                <p id="p_subj_sb" class="subj_sb">
+                  <span id="subjText3">모나리자</span>
+                  <strong id="subjText4">네이처블랑 에어볼 키친타올 150매 4롤 3개 총 12롤</strong>
+                </p>
+                <em class="admin_tag" id="streLogoInfo">
+                  <img src="https://image.g9.co.kr/i/2020/02/21/06845a5b25b94c43.jpg">스토어
+                  <span class="arr"></span>
+                </em>
+              </div>
+              <!-- item-info end -->
+              <div id="divSaleTimerBox" class="sale_timer_box">
+                <p id="spSaleCount2" class="countitem">
+                  <span class="ic"></span>
+                  <strong id="spOrderQty2">84</strong>
+                  <span id="spOrderQty2Text">개 구매&nbsp</span>
+                </p>
+              </div>
+
+            </div>
+          </div>
+          <!-- vip_v3_info end -->
+      </div>
+    
+      <!-- goods_vi end -->
+      <div class="vip_min_rt">
+        <div class="vip_buy_box" id="detail_info">
+          <div id="top_h">
+            <div class="box_option-info vip_buy_box_price" id="roll_price">
+              <div class="box_option-info--article">
+                <p class="item_price"><strong>11,900</strong></p>
+              </div>
+              <div class="box_option-info--article delivery-info">
+                <div class="vip_bnn delivery_wrap">
+                  <span class="icon-free"></span>무료배송<strong class="text_point">&nbsp배송비 반품비ㅣ 걱정없는 G9</strong>
+                  <span class="icon_gt"></span>
+                </div>
+              </div>
+              <!-- article delivery-info end -->
+              <div class="box_option-info--article benefit-info">
+                <span class="icon-free2"></span><span style="font-size: 13px;">카드 무이자 할부 혜택</span>
+                <em>자세히<span class="icon-free3"></span></em>
+              </div>
+
+            </div>
+          </div>
+          <div class="mdt_slt">
+            <ul class="opt_box" id="auto_height_opt" style="height:66px;">
+              <span>
+                <li id="li_boxid_empty" class="re1">
+                  <dl>
+                    <dt>
+                      <p class="opt_name"><strong>주문수량</strong></p>
+                    </dt>
+                    <dd>
+                      <div class="opt_left">
+                        <p class="opt_len"><input type="text" class="txt" style="width: 33px;" value="1" name="">
+                          <span class="input_btn">
+                            <a href="#" style="cursor: pointer;" class="plus"><img src="http://pics.g9.co.kr/btn/btn_num_up.gif" alt="증가"></a>
+                            <a href="#" style="cursor: pointer;"><img src="http://pics.g9.co.kr/btn/btn_num_down.gif" alt="감소"></a>
+                          </span>
+                        </p>
+                      </div>
+                      <div class="opt_right">
+                        <p class="opt_price"><strong id="boxid_empty_dcprice">11,900원</strong></p>
+                      </div>
+                    </dd>
+                  </dl>
+                </li>
+              </span>
+            </ul>
+          </div>
+          <div class="total">
+            <dl>
+              <dt>
+                <strong>주문금액</strong>
+              </dt>
+              <dd class="pk" id="ddTotalAmount">11,900원</dd>
+            </dl>
+          </div>
+          <div class="r_f_fixed">
+            <div class="btn_cn">
+              <a href="" class="btn_cart" id="basket_btn">장바구니</a>
+              <a href="" class="btn_buy">바로구매</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- vip_good_dataas end -->
+    <!-- vip_area -->
+    <div class="vip_area">
+      <div id="vip_prdt_info_wrap">
+        <div class="vip_tab">
+          <ul>
+            <li class="on" data-tab="tab1">
+              <a href="#vip_product_detail" style="cursor: pointer;">상세정보</a>
+            </li>
+            <li data-tab="tab2">
+              <a href="#ifm_vip_review" style="cursor: pointer;">리뷰(15)</a>
+            </li>
+            <li data-tab="tab3">
+              <a href="#ifm_vip_to_seller" style="cursor: pointer;">문의(0)</a>
+            </li>
+            <li data-tab="tab4">
+              <a href="#ifm_vip_to_buy" style="cursor: pointer;">구매/반품/교환</a>
+            </li>
+          </ul>
+        </div>
+        <!-- tab contents -->
+        <div id="tab1" class="tab_cont on vip_product_detail">
+          <div class="box_detail-view box_detail-view--active">
+            <iframe id="ifrItemDetail" src="https://www.g9.co.kr/display/vip/productdetail/1752514991" frameborder="0" marginwidth="0" marginheight="0"  scrolling="no" width="100%" style="height: 5208px;" title="ifrItemDetail"></iframe>
+            <div class="box_detail-button">
+              <span class="image_gradient"></span>
+              <p class="box_button-area">
+                <button class="button_detail-more btn_open">
+                  상세정보 더보기<span class="arr"></span>
+                </button>
+                <button class="button_detail-more btn_close hide">
+                  상세정보 접기</span><span class="arr2"></span>
+                </button>
+              </p>
+            </div>
+          </div>
+          <div id="info_tab1_sub1" class="ifm_vip_buy_cancel">
+            <div class="vip_to_seller">
+              <div class="product_info_detail">
+                <div class="header2">
+                  <img src="http://pics.g9.co.kr/title/product_info_detail.gif">
+                  <p>[전자상거래에 관한 상품정보 제공에 관한 고시] 항목에 의거 [<span id="spnSellerName">(주)모나리자</span>]에 의해 등록된 정보 입니다.</p>
+                </div>
+                <table>
+                  <caption></caption>
+                  <colgroup>
+                    <col style="width: 215px">
+                    <col style="width: 675px">
+                  </colgroup>
+                  <tbody>
+                    <tr>
+                      <th>
+                        <div class="cell_wrap1">상품번호</div>
+                      </th>
+                      <td>
+                        <div class="cell_wrap1">1752514991</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        <div class="cell_wrap1">면세여부</div>
+                      </th>
+                      <td>
+                        <div class="cell_wrap1">과세상품</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        <div class="cell_wrap1">영수증발행</div>
+                      </th>
+                      <td>
+                        <div class="cell_wrap1">발행가능 - 신용카드 전표, 온라인 현금영수증</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        <div class="cell_wrap1">사업자구분</div>
+                      </th>
+                      <td>
+                        <div class="cell_wrap1">사업자 판매자</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        <div class="cell_wrap1">품명 및 모델명</div>
+                      </th>
+                      <td>
+                        <div class="cell_wrap1">화장지 및 제지류</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        <div class="cell_wrap1">허가 관련</div>
+                      </th>
+                      <td>
+                        <div class="cell_wrap1">해당사항없음</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        <div class="cell_wrap1">제조국 또는 원산지</div>
+                      </th>
+                      <td>
+                        <div class="cell_wrap1">대한민국</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        <div class="cell_wrap1">제조자/수입자</div>
+                      </th>
+                      <td>
+                        <div class="cell_wrap1">(주)모나리자</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        <div class="cell_wrap1">관련 연락처</div>
+                      </th>
+                      <td>
+                        <div class="cell_wrap1">080-024-4698</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        <div class="cell_wrap1">주문후 예상 배송기간</div>
+                      </th>
+                      <td>
+                        <div class="cell_wrap1">결제완료후 1~2일내 출고 예상</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th colspan="2" class="new_line2">
+                        <div class="cell_wrap1">
+            소비자가 전자상거래등에서소비자보호에관한법률 제17조 제1항 또는 제3항에 따라 청약철회를 하고 동법 제18조제1항에 따라 청약철회한 물품을 판매자에게<br>
+            반환하였음에도 불구하고 결제대금의 환급이 3영업일을 넘게 지연된 경우, 소비자는 전자상거래등에서소비자보호에관한법률 제18조 제2항 및 동법 시행령 제21조의2에 따라서<br>
+            지연일수에 대하여 연20%의 지연배상금을 신청할 수 있습니다. 주문취소 및 결제대금의 환급신청은 '나의쇼핑정보'에서 하실 수 있으며,<br>
+            지연배상금의 신청에 관한 자세한 문의는 판매자 정보의 연락처로 해주시기 바랍니다.
+          </div>
+                      </th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <iframe src="https://www.g9.co.kr/display/vip/seller?itemno=1752514991" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" style="height:279px; margin-bottom: 40px;" title="ifrSeller"></iframe>
+          
+        </div>
+        <div id="tab2" class="tab_cont ifm_vip_review">
+          <iframe id="ifmFeedback" src="https://www.g9.co.kr//display/vip/feedback?itemno=1752514991" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" style="height: 904px;" title="ifmFeedback" ></iframe>
+        </div>
+        <div id="tab3" class="tab_cont ifm_vip_to_seller">
+          <iframe src="https://www.g9.co.kr//display/vip/qna?itemno=1752514991" id="ifrmQnA" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" style="height: 186px;" title="ifrmQnA"></iframe>
+          <div class="vip_common">
+            <iframe src="https://www.g9.co.kr//display/vip/commoncaution?itemno=1752514991" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" style="height: 216px;" title="caution"></iframe>
+          </div>
+        </div>
+        <div id="tab4" class="tab_cont ifm_vip_to_buy">
+          <iframe src="https://www.g9.co.kr//display/vip/returninfo?itemno=1752514991" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" style="height: 411px; margin-bottom: 40px" title="ifrmReturnInfo"></iframe>
+          <div class="vip_common">
+            <iframe src="https://www.g9.co.kr//display/vip/commoncaution?itemno=1752514991" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="100%" style="height: 216px;" title="caution"></iframe>
+          </div>
+        </div>
+        <!-- tab contents end -->
+      </div>
+    </div>
+  </div>
+
+    <!-- vip_area end -->
+
+    <!-- detail end -->
+    <div id="footer">
+      <div class="footer">
+        <div class="footermenu">
+          <ul class="f_list">
+            <li clas="f_menu"><a href="#" class="link_area"><span class="menu_text">공지사항</span></a></li>
+            <li clas="f_menu"><a href="#" class="link_area"><span class="menu_text">G9 판매안내</span></a></li>
+            <li clas="f_menu"><a href="#" class="link_area"><span class="menu_text">이용약관</span></a></li>
+            <li clas="f_menu"><a href="#" class="link_area"><span class="menu_text">전자금융거래약관</span></a></li>
+            <li clas="f_menu"><a href="#" class="link_area"><span class="menu_text" style="font-weight:bold;">개인정보처리방침</span></a></li>
+            <li clas="f_menu"><a href="#" class="link_area"><span class="menu_text">청소년보호정책</span></a></li>
+            <li clas="f_menu"><a href="#" class="link_area"><span class="menu_text">G마켓</span></a></li>
+          </ul>
+        </div>
+        <div class="footerinfo">
+          <div class="helpcenter">
+            <h2>
+              <strong class="motto">
+                지구에서
+                <br>
+                가장 친절한 고객센터
+              </strong>
+              <span class="tel">
+                1644-5702
+              </span>
+            </h2>
+
+            <dl class="desc">
+              <dt class="desc-title">상담가능시간</dt>
+              <dd class="desc-cont">오전9시-오후6시 토요일,공휴일 휴무</dd>
+
+              <dt class="desc-title">주소</dt>
+              <dd class="desc-cont">경기도 부천시 원미구 상동 461 투나 6층</dd>
+
+              <dt class="desc-title">E-Mail</dt>
+              <dd class="desc-cont">g9_help@g9.co.kr</dd>
+
+              <dd class="desc-cont">
+                <span class="desc_text"><a href="#">분쟁처리절차</a></span>
+
+              </dd>
+
+
+            </dl>
+
+          </div>
+
+          <div class="companyinfo">
+            <div class="company_info">
+              <h2 class="section_title">이베이코리아 유한책임회사</h2>
+              <div>
+                <dl class="desc">
+                  <dd class="desc-cont">서울시 강남구 테헤란로 152 (역삼동 강남파이낸스센터)</dd>
+                  <dd class="desc-cont">업무집행자 : 변광윤 Fax : 02-589-8842 사업자정보확인</dd>
+                  <dd class="desc-cont">통신판매업신고 : 강남 10630호</dd>
+                </dl>
+              </div>
+            </div>
+
+            <div class="company_cs">
+              <h2 class="section_title">전자금융분쟁처리 안내더보기</h2>
+              <div>
+                <dl class="desc">
+                  <dt class="desc-title">TEL</dt>
+                  <dd class="desc-cont">1644 - 5702</dd>
+                  <dt class="desc-title">Fax</dt>
+                  <dd class="desc-cont">02-589-8844</dd>
+                  <dt class="desc-title">Mail</dt>
+                  <dd class="desc-cont">gmk_cs@corp.gmarket.co.kr</dd>
+                </dl>
+                <div class="company_auth">
+                  <h2 class="section_title"><a href="#">저작권 침해 신고하기 </a> </h2>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footercopyright">
+          <p class="desc">
+            G9는 G마켓에서 만든 패밀리사이트입니다. <br>
+            이베이코리아 유한책임회사 사이트의 상품/판매자/쇼핑 정보, 콘텐츠, UI 등에 대한 무단 복제, 전송, 배포, 스크래핑 등의 행위는 저작권법, 콘텐츠산업진흥법 등에 의하여 엄격히 금지됩니다.
+            <a href="#" style="color:#808080; font-weight:400;">콘텐츠 산업 진흥법에 따른 표시</a>
+            <br>
+            G9는 통신판매중개자이며 통신판매 당사자가 아닙니다. 따라서 G9는 상품, 거래정보 및 거래에 대하여 책임을 지지 않습니다.
+          </p>
+
+          <p class="copyright">Copyrightⓒ eBay Korea LLC All rights reserved.</p>
+
+        </div>
+
+      </div>
+    </div>
+
+</body>
+
+</html>

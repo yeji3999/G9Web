@@ -1,0 +1,608 @@
+#myCarousel {
+  margin-bottom: 90px;
+}
+
+.carousel_img {
+  float: right;
+  position: relative;
+  right: -1000px;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+  vertical-align: bottom;
+  width: 30px;
+  height: 30px;
+  top: -45px;
+  position: relative;
+}
+
+.carousel-control.left {
+  margin-left: 10px;
+}
+
+.carousel-control.right {
+  margin-left: 60px
+}
+
+.carousel-caption {
+  position: relative;
+  left: 0;
+  top: 10px;
+}
+
+.container {
+  width: 100%;
+  padding: 0;
+  padding-left: 150px;
+  overflow: hidden;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 17px;
+  padding: 8px 12px;
+  position: relative;
+  top: 325px;
+  left: 10px;
+}
+
+#banner_summary_more_btn {
+  width: 100px;
+  height: 40px;
+  background-position: -84px -102px;
+  background-image: url('http://pics.g9.co.kr/pc/cloud/common/sp_etc.png');
+  background-size: 200px auto;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.btn_footer_more {
+  margin-bottom: 6px;
+  margin-left: 2px;
+  width: 7px;
+  height: 7px;
+  background-position: -50px -24px;
+  background-image: url('http://pics.g9.co.kr/pc/cloud/common/sp_itemcard.png');
+  background-size: 120px auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.card {
+  width: 100%;
+  overflow: hidden;
+  padding-left: 26px;
+  vertical-align: top;
+  margin-bottom: 80px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 257px;
+}
+
+.col-xs-6, .col-xs-3 {
+  padding: 0;
+}
+
+.homecontent {
+  padding: 0 30px;
+  margin-bottom: 130px;
+}
+
+.banner_summary {
+  font-size: 18px;
+  line-height: 27px;
+  padding-top: 18px;
+  display: block;
+}
+
+.banner_summary_title {
+  display: block;
+}
+
+.banner_summary_subtitle {
+  font-size: 13px;
+  line-height: 21px;
+  color: #808080;
+  padding-top: 4px;
+}
+
+.card-body_box {
+  position: relative;
+  top: -30px;
+  background-color: white;
+  width: 95%;
+}
+
+.cardimage {
+  overflow: hidden;
+}
+
+.card_item {
+  width: 100%;
+  overflow: hidden;
+  height: 330px;
+  margin-top: 30px;
+}
+
+.card_item_group {
+  width: 100%;
+}
+
+.card_item_group_list {
+  width: 100%;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.card_itemcard_info_major_text:hover {
+  text-decoration: none;
+}
+
+.card_itemcard {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+}
+
+.carditem_img {
+  display: inline;
+}
+
+.card_item_list {
+  padding: 0;
+}
+
+.card_itemcard_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+}
+
+.card_itemcard_info {
+  width: auto;
+  height: auto;
+  padding-top: 5px;
+  padding-left: 120px;
+}
+
+.card_itemcard_info_price {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.format_price {
+  font-size: 16px;
+  color: #222;
+  line-height: 17px;
+}
+
+.format_price_info {
+  display: block;
+  font-size: 12px;
+  color: #808080;
+  overflow: hidden;
+  font-weight: 400;
+}
+
+.card_itemcard_info_major_text {
+  padding-right: 50px;
+  display: block;
+  overflow: hidden;
+}
+
+.card_item_footer {
+  margin-top: 10px;
+  padding-top: 16px;
+  border-top: 1px solid #f2f2f2;
+  height: auto;
+  overflow: auto;
+}
+
+.card_item_footer_more {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.card_item_footer_more_title {
+  float: left;
+  font-size: 13px;
+  color: #222;
+  line-height: 20px;
+}
+
+.banner_summary_more {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.middlerow2 {
+  display: none;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.tabmenucontent {
+  margin-bottom: 80px;
+  position: relative;
+  margin-top: 50px;
+  padding: 0 10px;
+}
+
+.main_tabmenu {
+  overflow: hidden;
+  background-color: #fff;
+}
+
+/* Style the buttons inside the tab */
+.main_tabmenu button {
+  background-color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 20px;
+  line-height: 29px;
+  font-weight: 600;
+  color: #222;
+  margin-right: 17px;
+  padding: 0;
+}
+
+/* Create an active/current tablink class */
+.main_tabmenu button.active {
+  color: #00c6ff;
+  border-bottom: 1px solid #00c6ff;
+}
+
+/* Style the tab content */
+.main_tabmenucontent {
+  display: none;
+  border-top: none;
+}
+
+.section_tab_title {
+  position: relative;
+  float: right;
+  top: -45px;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 20px;
+}
+
+.section_tab_title_btn {
+  margin-top: 6px;
+  margin-left: 2px;
+  width: 22px;
+  height: 7px;
+  background-position: -50px -52px;
+  background-image: url('http://pics.g9.co.kr/pc/cloud/common/sp_arrow.png');
+  background-size: 200px auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#caption_title {
+  margin-bottom: 50px;
+  margin-top: 30px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.caption_title {
+  color: #222;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: -0.8px;
+  font-weight: 200;
+  text-align: left;
+}
+
+.caption_subtitle {
+  color: #222;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 200;
+}
+
+#caption_subtitle {
+  margin-bottom: 20px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.slider {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+.slider_info {
+  padding: 22px 20px 0 0;
+}
+
+.slider_info {
+  padding-bottom: 7px;
+}
+
+.format_price_sale img {
+  margin-top: 8px;
+}
+
+.main_linebanner {
+  margin-bottom: 80px;
+}
+
+.linebanner {
+  width: 100%;
+}
+
+.linebanner_img {
+  background-color: #deeeff;
+  text-align: center;
+  position: relative;
+}
+
+.main_hotdeal {
+  padding: 0 15px;
+  overflow: visible;
+}
+
+.hotdael_corner {
+  position: relative;
+  width: 100%;
+}
+
+.corner_title {
+  margin-bottom: 34px;
+}
+
+.corner_header_title {
+  font-size: 42px;
+  line-height: 52px;
+  color: #222;
+  font-weight: 200;
+  display: inline-block;
+}
+
+.badge_new {
+  position: absolute;
+  background-image: url('http://pics.g9.co.kr/pc/cloud/common/sp_etc.png');
+  background-position: -140px 0;
+  background-size: 200px auto;
+  margin-left: -10px;
+  margin-top: 12px;
+  vertical-align: top;
+  width: 24px;
+  height: 24px;
+  border: none;
+}
+
+.corner_body {
+  width: 100%;
+}
+
+.hotdeal_summary_title {
+  display: block;
+  font-size: 15px;
+  line-height: 23px;
+  color: #222;
+  font-weight: normal;
+}
+
+.hotdeal_card {
+  position: relative;
+  float: left;
+  width: 340px;
+  padding-left: 26px;
+  box-sizing: border-box;
+  margin-bottom: 85px;
+  float: none;
+  vertical-align: top;
+  display: inline-block;
+  word-break: break-all;
+}
+
+.hotdeal_cardinfo {
+  padding: 0px 20px 0 0;
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff;
+  position: relative;
+}
+
+.hotdeal_action {
+  width: 100%;
+  overflow: visible;
+  vertical-align: middle;
+  height: auto;
+}
+
+.hotdeal_item_card_aciton {
+  display: block;
+  margin-left: -10px;
+  list-style: none;
+}
+
+.action_zzim {
+  float: left;
+  margin-right: 10px;
+  position: relative;
+  padding-left: 10px;
+  vertical-align: middle;
+  line-height: 22px;
+  margin-top: 13px;
+}
+
+.hotdeal_favorite {
+  position: absolute;
+  background-image: url('http://pics.g9.co.kr/pc/cloud/common/sp_itemcard.png');
+  background-position: -24px 0;
+  background-size: 120px auto;
+  margin-left: -40px;
+  margin-top: 3px;
+  vertical-align: top;
+  width: 20px;
+  height: 18px;
+  border: none;
+  background-color: transparent;
+}
+
+.hotdeal_click_hover {
+  background-position: 0px -42px;
+}
+
+.hotdeal_click {
+  background-position: 0px 0px;
+}
+
+.hotdeal_favorite_txt {
+  display: inline-block;
+  line-height: 22px;
+  position: relative;
+  right: 10px;
+}
+
+.hotdeal_favorite_cnt, .hotdeal_favorite_text {
+  font-size: 13px;
+  line-height: 22px;
+  color: #808080;
+  font-weight: normal;
+}
+
+.action_buyaccount {
+  float: left;
+  margin-right: 10px;
+  position: relative;
+  padding-left: 10px;
+  vertical-align: middle;
+  line-height: 22px;
+  margin-top: 13px;
+}
+
+.badge_overseas {
+  position: absolute;
+  background-image: url('http://pics.g9.co.kr/pc/cloud/common/sp_badge.png');
+  background-position: -100px -360px;
+  background-size: 230px auto;
+  vertical-align: middle;
+  width: 47px;
+  height: 18px;
+  border: none;
+  margin: 10px 0px 6px -2px;
+  overflow: auto;
+}
+
+.action_store {
+  display: block;
+  float: none;
+  margin-top: 0;
+  margin-bottom: 27px;
+  width: 100%;
+  margin-right: 0;
+}
+
+.action_store img {
+  max-height: 20px;
+  vertical-align: middle;
+  max-width: 100px;
+  margin-top: 1px;
+}
+
+.store_footer_text {
+  display: inline;
+  width: auto;
+  line-height: 21px;
+  vertical-align: middle;
+  font-size: 13px;
+  color: #222;
+}
+
+.hotdeal_store_sale {
+  padding: 15px 0px;
+  margin: 0;
+  border-top: 1px solid #f2f2f2;
+}
+
+.hotdeal_store_sale a {
+  position: relative;
+  top: 15px;
+  text-decoration-color: #222;
+}
+
+.badge_tag {
+  position: absolute;
+  background-image: url('http://pics.g9.co.kr/pc/cloud/common/sp_itemcard.png');
+  background-position: -24px -24px;
+  background-size: 120px auto;
+  vertical-align: middle;
+  width: 19px;
+  height: 15px;
+  border: none;
+}
+
+.hotdeal_store_sale_text {
+  display: inline;
+  width: auto;
+  line-height: 21px;
+  vertical-align: middle;
+  font-size: 13px;
+  color: #222;
+  left: 25px;
+  top: -3px;
+  position: relative;
+}
+
+.hotdeal_more {
+  width: 100%;
+  margin-top: 30px;
+  position: relative;
+  left: 720px;
+  height: 150px;
+}
+
+#hotdeal_more_btn {
+  position: absolute;
+  background-image: url('http://pics.g9.co.kr/pc/cloud/home/sp_home.png');
+  background-position: 0 0;
+  background-size: 122px auto;
+  vertical-align: middle;
+  width: 122px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+}

@@ -1,0 +1,3496 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>트렌드 라이프 쇼핑 G9</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  <link rel="stylesheet" href="../css/main_1.css">
+  <link rel="stylesheet" href="../css/main_2.css">
+  <script src="../js/main.js"></script>
+  <script src="../js/main_morebtn.js"></script>
+  <script src="../js/main_changeimage.js"></script>
+  <script src="../js/main_cardimg.js"></script>
+  <script src="../js/main_tabmenu.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css/slick.css">
+  <link rel="stylesheet" type="text/css" href="../css/slick-theme.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="main_nav">
+      <div class="main_nav">
+        <h1 id="logoimg">
+          <a href="main.html" class="link_area">
+            <img src="http://image.g9.co.kr/i/2019/10/31/f13c6efbc82245bc.gif" alt="logo" style="width:69px; height:50px">
+          </a>
+        </h1>
+
+        <div class="category">
+          <span class=link_text>카테고리</span>
+        </div>
+
+        <div class="menu_scroll">
+          <div class="menu1">
+            <ul class="menu1_body">
+              <li class="menu1list"><a href="#"><span class="link_text">핫딜</span></a></li>
+              <li class="menu1list"><a href="#"><span class="link_text">랭킹</span></a></li>
+              <li class="menu1list"><a href="#"><span class="link_text">해외직구</span></a></li>
+              <li class="menu1list"><a href="#"><span class="link_text">맛지구</span></a></li>
+              <li class="menu1list"><a href="#"><span class="link_text">홈(HOME)술</span></a></li>
+              <li class="menu1list"><a href="#"><span class="link_text">명품관</span></a></li>
+              <li class="menu1list"><a href="#"><span class="link_text">백화점</span></a></li>
+              <li class="menu1list"><a href="#"><span class="link_text">뷰티샵</span></a></li>
+              <li class="menu1list"><a href="#"><span class="link_text">뭐하지?</span></a></li>
+            </ul>
+          </div>
+
+          <div class="menu2">
+            <ul class="menu2_body">
+              <li class="menu2list"><a href="#"><span class="link_text2">e쿠폰</span></a></li>
+              <li class="menu2list"><a href="#"><span class="link_text2">도서·음반</span></a></li>
+              <li class="menu2list"><a href="#"><span class="link_text2">항공권</span></a></li>
+              <li class="menu2list"><a href="#"><span class="link_text2">쿠폰·이벤트</span></a></li>
+              <li class="menu2list"><a href="#"><span class="link_text2">About G9</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="header">
+      <div class="header">
+        <div class="main_search">
+          <div class="main_searchbox">
+            <form name="searchform" onsubmit="return false;" class="searchform">
+              <fieldset>
+                <div class="searcharea">
+                  <label class="placeholder" for="keyword" id="labelSearchBox">
+                    전상품 무료배송, 반품비 월 1만원 지원
+                  </label>
+                  <input class="inputSearchbox" id="keyword" type="text" onclick="searchEvent()">
+                  <button type="searchbtn" id="btnsearch"></button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+          <div id="searchSuggest">
+            <div class="recentlySearch">
+              <h3>최근 검색</h3>
+              <div class="resultNone">
+                <span class="menu_text">최근검색어가 없습니다</span>
+              </div>
+            </div>
+            <div class="popularSearch">
+              <h3>인기 검색어</h3>
+              <span class="popular_time"> 2020.08.19 11시 기준</span>
+
+              <ol class="popularSearchList">
+                <li class="pslist">
+                  <a href="#" class="popular_link">
+                    <span class="pslist_num">1</span>
+                    <span class="menu_text">갤럭시탭s7</span>
+                  </a>
+                </li>
+                <li class="pslist">
+                  <a href="#" class="popular_link">
+                    <span class="pslist_num">2</span>
+                    <span class="menu_text">갤럭시탭s7</span>
+                  </a>
+                </li>
+                <li class="pslist">
+                  <a href="#" class="popular_link">
+                    <span class="pslist_num">3</span>
+                    <span class="menu_text">갤럭시탭s7</span>
+                  </a>
+                </li>
+                <li class="pslist">
+                  <a href="#" class="popular_link">
+                    <span class="pslist_num">4</span>
+                    <span class="menu_text">갤럭시탭s7</span>
+                  </a>
+                </li>
+                <li class="pslist">
+                  <a href="#" class="popular_link">
+                    <span class="pslist_num">5</span>
+                    <span class="menu_text">갤럭시탭s7</span>
+                  </a>
+                </li>
+              </ol>
+              <ol class="popularSearchList">
+                <li class="pslist">
+                  <a href="#" class="popular_link">
+                    <span class="pslist_num">6</span>
+                    <span class="menu_text">갤럭시탭s7</span>
+                  </a>
+                </li>
+                <li class="pslist">
+                  <a href="#" class="popular_link">
+                    <span class="pslist_num">7</span>
+                    <span class="menu_text">갤럭시탭s7</span>
+                  </a>
+                </li>
+                <li class="pslist">
+                  <a href="#" class="popular_link">
+                    <span class="pslist_num">8</span>
+                    <span class="menu_text">갤럭시탭s7</span>
+                  </a>
+                </li>
+                <li class="pslist">
+                  <a href="#" class="popular_link">
+                    <span class="pslist_num">9</span>
+                    <span class="menu_text">갤럭시탭s7</span>
+                  </a>
+                </li>
+                <li class="pslist">
+                  <a href="#" class="popular_link">
+                    <span class="pslist_num">10</span>
+                    <span class="menu_textt">갤럭시탭s7</span>
+                  </a>
+                </li>
+              </ol>
+            </div>
+            <div class="searchClose">
+              <button type="close" name="button" class="closebtn" onclick="suggestClose()"><a href="#" id="closebtn"></a></button>
+            </div>
+          </div>
+        </div>
+        <div class="topmenu" onclick="suggestClose()">
+          <ul class="utilmenu">
+            <li class="menu_cart"><a href="#" id="btncart"></a> </li>
+            <li class="menu_favorite"><a href="#" id="btnfavorite"></a></li>
+            <li class="menu_mypage"><button type="button" id="btnmypage"></button>
+              <div class="mypage">
+                <div class="mypagebox">
+                  <div class="mypage_menubox">
+                    <ul class=mypage_menu_usr>
+                      <li class="mypage_menulist">
+                        <a href="login.html" class="mypagelink">
+                          <span class="mypagetext">로그인</span>
+                        </a>
+                      </li>
+                      <li class="mypage_menulist">
+                        <a href="signup.html" class="mypagelink">
+                          <span class="mypagetext">회원가입</span>
+                        </a>
+                      </li>
+                    </ul>
+
+                    <ul class="mypage_menu">
+
+                      <li class="mypage_menulist">
+                        <a href="#" class="mypagelink">
+                          <span class="mypagetext">주문배송조회</span>
+                        </a>
+                      </li>
+                      <li class="mypage_menulist">
+                        <a href="#" class="mypagelink">
+                          <span class="mypagetext">찜한상품</span>
+                        </a>
+                      </li>
+                      <li class="mypage_menulist">
+                        <a href="#" class="mypagelink">
+                          <span class="mypagetext">찜한브랜드</span>
+                        </a>
+                      </li>
+                      <li class="mypage_menulist">
+                        <a href="#" class="mypagelink">
+                          <span class="mypagetext">최근본상품</span>
+                        </a>
+                      </li>
+                      <li class="mypage_menulist">
+                        <a href="#" class="mypagelink">
+                          <span class="mypagetext">G9쿠폰</span>
+                        </a>
+                      </li>
+                      <li class="mypage_menulist">
+                        <a href="#" class="mypagelink">
+                          <span class="mypagetext">G9캐시</span>
+                        </a>
+                      </li>
+                      <li class="mypage_menulist">
+                        <a href="#" class="mypagelink">
+                          <span class="mypagetext">나의정보</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" id="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="banner" style="height: 360px; background-color:#d3ccf6;">
+              <span class="numbertext">1 / 4 </span>
+              <img class="carousel_img" src="https://image.g9.co.kr/i/2020/08/20/a4ad529dd1fc48f5.jpg" alt="Chania" width="1000" height="360">
+              <div class="carousel-caption">
+                <div id="caption_title">
+                  <span class="caption_title">단 3일간만!</span>
+                  <br>
+                  <span class="caption_title">최대 5,3만원 할인</span>
+                </div>
+                <div id="caption_subtitle">
+                  <span class="caption_subtitle">놓치면 후회하는 직구 쇼핑 찬스!</span>
+                  <br>
+                  <span class="caption_subtitle">매일 오전 9시, 한정수량 특가 확인은 필수</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="banner" style="height: 360px; background-color:#d8cbb0;">
+              <span class="numbertext">2 / 4</span>
+              <img class="carousel_img" src="../img/banner_2.jpg" alt="Chania" width="1000" height="360">
+              <div class="carousel-caption">
+                <div id="caption_title">
+                  <span class="caption_title">단 3일간만!</span>
+                  <br>
+                  <span class="caption_title">최대 5,3만원 할인</span>
+                </div>
+                <div id="caption_subtitle">
+                  <span class="caption_subtitle">놓치면 후회하는 직구 쇼핑 찬스!</span>
+                  <br>
+                  <span class="caption_subtitle">매일 오전 9시, 한정수량 특가 확인은 필수</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="banner" style="height: 360px; background-color:#1a90ea;">
+              <span class="numbertext">3 / 4</span>
+              <img class="carousel_img" src="../img/banner_3.jpg" alt="Flower" width="1000" height="360">
+              <div class="carousel-caption">
+                <div id="caption_title">
+                  <span class="caption_title">단 3일간만!</span>
+                  <br>
+                  <span class="caption_title">최대 5,3만원 할인</span>
+                </div>
+                <div id="caption_subtitle">
+                  <span class="caption_subtitle">놓치면 후회하는 직구 쇼핑 찬스!</span>
+                  <br>
+                  <span class="caption_subtitle">매일 오전 9시, 한정수량 특가 확인은 필수</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="banner" style="height: 360px; background-color:#ffdea9;">
+              <span class="numbertext">4 / 4</span>
+              <img class="carousel_img" src="../img/banner_4.jpg" alt="Flower" width="1000" height="360">
+              <div class="carousel-caption">
+                <div id="caption_title">
+                  <span class="caption_title">단 3일간만!</span>
+                  <br>
+                  <span class="caption_title">최대 5,3만원 할인</span>
+                </div>
+                <div id="caption_subtitle">
+                  <span class="caption_subtitle">놓치면 후회하는 직구 쇼핑 찬스!</span>
+                  <br>
+                  <span class="caption_subtitle">매일 오전 9시, 한정수량 특가 확인은 필수</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <script>
+          var left = $('.carousel_img').offset().left;
+          $(".carousel_img").css({
+            left: left
+          }).animate({
+            "left": "0px"
+          });
+        </script>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <div class="homecontent">
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="card" style="padding:0;">
+              <div class="cardimage">
+                <img class="card-img-top" src="https://image.g9.co.kr/i/2020/08/24/ea113731bbbf45ac.jpg" alt="Card image cap">
+              </div>
+              <div class="card-body">
+                <strong class="banner_summary">
+                  <span class="banner_summary_title">요즘처럼 마트 가기 힘들 땐</span>
+                  <span class="banner_summary_title">언택트 집콕! 장보기</span>
+                </strong>
+                <p class="banner_summary_subtitle">
+                  <span class="banner_summary_title">꼭 필요한 생필품부터 식품, 세제까지</span>
+                  <span class="banner_summary_title">안전하고 편하게 문 앞에서 배송 받으세요!</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="col-xs-6">
+              <div class="card">
+                <div class="cardimage">
+                  <img class="card-img-top" src="https://image.g9.co.kr/i/2020/07/24/4e96707589474688.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <strong class="banner_summary">
+                    <span class="banner_summary_title">간편하게 즐기는 #언택트캠핑</span>
+                    <span class="banner_summary_title">부담없이 바로 떠나요</span>
+                  </strong>
+                  <p class="banner_summary_subtitle">
+                    <span class="banner_summary_title">혼자서도 둘이서도 즐길 수 있는</span>
+                    <span class="banner_summary_title">요즘 대세 캠핑법을 소개합니다</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6">
+              <div class="card">
+                <div class="cardimage">
+                  <img class="card-img-top" src="https://image.g9.co.kr/i/2020/08/24/c27903a0e76b426c.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <strong class="banner_summary">
+                    <span class="banner_summary_title">열대야에 잠 못 이루는 밤</span>
+                    <span class="banner_summary_title">집에서 한 잔 어때요?</span>
+                  </strong>
+                  <p class="banner_summary_subtitle">
+                    <span class="banner_summary_title">갬성 돋는 술잔 추천~</span>
+                    <span class="banner_summary_title">직접 꾸미는 나만의 홈 BAR</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-3">
+            <div class="card" style="padding:0;">
+              <div class="cardimage">
+                <img class="card-img-top" src="https://image.g9.co.kr/i/2020/08/21/d5c28bb95638413c.jpg" alt="Card image cap">
+              </div>
+              <div class="card-body">
+                <strong class="banner_summary">
+                  <span class="banner_summary_title">더 선명해지고, 더 편리해진 사용</span>
+                  <span class="banner_summary_title">장소불문 만능템, #삼성 프린터</span>
+                </strong>
+                <p class="banner_summary_subtitle">
+                  <span class="banner_summary_title">당신을 위한 G9의 PC 큐레이션</span>
+                  <span class="banner_summary_title">월간PC 8월호</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="card">
+              <div class="cardimage">
+                <img class="card-img-top" src="https://image.g9.co.kr/i/2020/08/24/be3f635b78c648a8.jpg" alt="Card image cap">
+              </div>
+              <div class="card-body">
+                <strong class="banner_summary">
+                  <span class="banner_summary_title">건강한 곡식·견과 대~방출!</span>
+                  <span class="banner_summary_title">신선지구 곳간 열리는 날</span>
+                </strong>
+                <p class="banner_summary_subtitle">
+                  <span class="banner_summary_title">요즘 가장 중요한 건강 챙기기</span>
+                  <span class="banner_summary_title">잡곡밥 먹기와 1일1견과로 시작하세요~</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="card">
+              <div class="cardimage">
+                <img class="card-img-top" src="https://image.g9.co.kr/i/2020/04/03/5eddeb2b08bf436a.jpg" alt="Card image cap">
+              </div>
+              <div class="card-body">
+                <strong class="banner_summary">
+                  <span class="banner_summary_title">매일 9시, 오늘만 핫딜!</span>
+                  <span class="banner_summary_title">내일이면 가격이 달라져요</span>
+                </strong>
+                <p class="banner_summary_subtitle">
+                  <span class="banner_summary_title">배송비도 무료!</span>
+                  <span class="banner_summary_title">지금 바로 득템하러 고고~</span>
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xs-3">
+            <div class="card">
+              <div class="cardimage">
+                <img class="card-img-top" src="https://image.g9.co.kr/i/2020/08/24/d76646a20fb24ceb.jpg" alt="Card image cap">
+              </div>
+              <div class="card-body">
+                <strong class="banner_summary">
+                  <span class="banner_summary_title">여름날씨에 민감해진 피부를 위한 처방</span>
+                  <span class="banner_summary_title">더마코스메틱으로 힐링하세요</span>
+                </strong>
+                <p class="banner_summary_subtitle">
+                  <span class="banner_summary_title">신규 입점 기념 나이팅게일 혜택부터</span>
+                  <span class="banner_summary_title">내 피부에 꼭 맞는 기초 베스트 라인업까지</span>
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="row" id="middlerow">
+          <div class="col-xs-3">
+            <div class="card" style="padding:0;">
+              <div class="cardimage">
+                <img class="card-img-top" src="https://image.g9.co.kr/i/2020/07/31/65fb373e74cb4389.jpg" alt="Card image cap">
+              </div>
+              <div class="card-body_box">
+                <strong class="banner_summary">
+                  <span class="banner_summary_title">매일 쓰는 수건에게</span>
+                  <span class="banner_summary_title">정(情) 주지 마세요</span>
+                </strong>
+                <p class="banner_summary_subtitle">
+                  <span class="banner_summary_title">오래된 수건은 건강을 헤치는 지름길!</span>
+                  <span class="banner_summary_title">지금 바로 내게 맞는 수건을 골라보세요</span>
+                </p>
+              </div>
+              <div class="card_item">
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_8.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+                              <span class="format_price_sale">
+                                <img src="https://image.g9.co.kr/i/2020/08/28/06449951007a4eb6.png" alt="">
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_8.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+                              <span class="format_price_sale">
+                                <img src="https://image.g9.co.kr/i/2020/08/28/06449951007a4eb6.png" alt="">
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_8.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+                              <span class="format_price_sale">
+                                <img src="https://image.g9.co.kr/i/2020/08/28/3c41ca7befb94ee6.png" alt="">
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+              </div>
+              <div class="card_item_footer">
+                <div class="card_item_footer_more">
+                  <a href="#">
+                    <span class="card_item_footer_more_title">깨끗한 수건 습관을 시작해보세요</span>
+                    <span class="btn_footer_more"></span>
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="card">
+              <div class="cardimage">
+                <img class="card-img-top" src="https://image.g9.co.kr/i/2020/07/31/383f4d07a9d94aac.jpg" alt="Card image cap">
+              </div>
+              <div class="card-body_box">
+                <strong class="banner_summary">
+                  <span class="banner_summary_title">남자의 여름,</span>
+                  <span class="banner_summary_title">모기만 잡다 끝낼건가요?!</span>
+                </strong>
+                <p class="banner_summary_subtitle">
+                  <span class="banner_summary_title">흐르는 육수, 찌르는 냄새</span>
+                  <span class="banner_summary_title">싹~다 잡아야 진짜 #훈남</span>
+                </p>
+              </div>
+              <div class="card_item">
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_8.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_8.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+                              <span class="format_price_sale">
+                                <img src="https://image.g9.co.kr/i/2020/08/28/3c41ca7befb94ee6.png" alt="">
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_8.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+              </div>
+              <div class="card_item_footer">
+                <div class="card_item_footer_more">
+                  <a href="#">
+                    <span class="card_item_footer_more_title">깨끗한 수건 습관을 시작해보세요</span>
+                    <span class="btn_footer_more"></span>
+                  </a>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="card">
+              <div class="cardimage">
+                <img class="card-img-top" src="https://image.g9.co.kr/i/2020/08/21/fd8aeccdd2c54f5f.jpg" alt="Card image cap">
+              </div>
+              <div class="card-body_box">
+                <strong class="banner_summary">
+                  <span class="banner_summary_title">내 몸에 딱 맞는 의자로 </span>
+                  <span class="banner_summary_title">더 건강해지는 생활 </span>
+                </strong>
+                <p class="banner_summary_subtitle">
+                  <span class="banner_summary_title">사무용 의자부터 유아용 소파까지 </span>
+                  <span class="banner_summary_title">우리 가족을 위한 의자들, 지금 만나보세요!</span>
+                </p>
+              </div>
+              <div class="card_item">
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_8.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+                              <span class="format_price_sale">
+                                <img src="https://image.g9.co.kr/i/2020/08/28/3c41ca7befb94ee6.png" alt="">
+                              </span>
+
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_8.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_8.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+                              <span class="format_price_sale">
+                                <img src="https://image.g9.co.kr/i/2020/08/28/071c1d057fc14400.png" alt="">
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+              </div>
+              <div class="card_item_footer">
+                <div class="card_item_footer_more">
+                  <a href="#">
+                    <span class="card_item_footer_more_title">깨끗한 수건 습관을 시작해보세요</span>
+                    <span class="btn_footer_more"></span>
+                  </a>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xs-3">
+            <div class="card">
+              <div class="cardimage">
+                <img class="card-img-top" src="https://image.g9.co.kr/i/2020/08/04/698848cc3a404d67.jpg" alt="Card image cap">
+              </div>
+              <div class="card-body_box">
+                <strong class="banner_summary">
+                  <span class="banner_summary_title">함께해요! #에너지 절약 챌린지</span>
+                </strong>
+                <p class="banner_summary_subtitle">
+                  <span class="banner_summary_title">중소기업과 지구를 살리는</span>
+                  <span class="banner_summary_title">착한소비 동참하러 Go!</span>
+                </p>
+              </div>
+              <div class="card_item" style="margin-top:56px;">
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_8.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+                              <span class="format_price_sale">
+                                <img src="https://image.g9.co.kr/i/2020/08/28/071c1d057fc14400.png" alt="">
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_8.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+                              <span class="format_price_sale">
+                                <img src="https://image.g9.co.kr/i/2020/08/28/071c1d057fc14400.png" alt="">
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_8.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+              </div>
+              <div class="card_item_footer">
+                <div class="card_item_footer_more">
+                  <a href="#">
+                    <span class="card_item_footer_more_title">깨끗한 수건 습관을 시작해보세요</span>
+                    <span class="btn_footer_more"></span>
+                  </a>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="banner_summary_more">
+          <button id="banner_summary_more_btn" onclick="javascript:morebannerButtonClick();"></button>
+        </div>
+        <div class="middlerow2">
+          <div class="col-xs-3">
+            <div class="card" style="padding:0;">
+              <div class="cardimage">
+                <img class="card-img-top" src="https://image.g9.co.kr/i/2020/08/21/fd8aeccdd2c54f5f.jpg" alt="Card image cap">
+              </div>
+              <div class="card-body_box">
+                <strong class="banner_summary">
+                  <span class="banner_summary_title">내 몸에 딱 맞는 의자로</span>
+                  <span class="banner_summary_title">더 건강해지는 생활</span>
+                </strong>
+                <p class="banner_summary_subtitle">
+                  <span class="banner_summary_title">사무용 의자부터 유아용 소파까지</span>
+                  <span class="banner_summary_title">우리 가족을 위한 의자들, 지금 만나보세요!</span>
+                </p>
+              </div>
+              <div class="card_item">
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_10.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="https://image.g9.co.kr/i/2020/08/14/8ea4503f20d04571.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+                              <span class="format_price_sale">
+                                <img src="https://image.g9.co.kr/i/2020/08/28/06449951007a4eb6.png" alt="">
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_10.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+              </div>
+              <div class="card_item_footer">
+                <div class="card_item_footer_more">
+                  <a href="#">
+                    <span class="card_item_footer_more_title">의자의 품격을 느껴보세요</span>
+                    <span class="btn_footer_more"></span>
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="card">
+              <div class="cardimage">
+                <img class="card-img-top" src="https://image.g9.co.kr/i/2020/08/14/8ea4503f20d04571.jpg" alt="Card image cap">
+              </div>
+              <div class="card-body_box">
+                <strong class="banner_summary">
+                  <span class="banner_summary_title">힘들수록 서로 돕는</span>
+                  <span class="banner_summary_title">같이, 가치 소비</span>
+                </strong>
+                <p class="banner_summary_subtitle">
+                  <span class="banner_summary_title">함께해서 더 행복한 혜택</span>
+                  <span class="banner_summary_title">우수 소상공인 특별 할인전</span>
+                </p>
+              </div>
+              <div class="card_item">
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_10.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_10.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_10.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+              </div>
+              <div class="card_item_footer">
+                <div class="card_item_footer_more">
+                  <a href="#">
+                    <span class="card_item_footer_more_title">깨끗한 수건 습관을 시작해보세요</span>
+                    <span class="btn_footer_more"></span>
+                  </a>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="card">
+              <div class="cardimage">
+                <img class="card-img-top" src="https://image.g9.co.kr/i/2020/08/21/40b5c942460f4fd5.jpg" alt="Card image cap">
+              </div>
+              <div class="card-body_box">
+                <strong class="banner_summary">
+                  <span class="banner_summary_title">누가해도 똑같이 맛있는 레시피</span>
+                  <span class="banner_summary_title">더 건강해지는 생활 </span>
+                </strong>
+                <p class="banner_summary_subtitle">
+                  <span class="banner_summary_title">이렇게만 하면 상상하던 그 맛이 현실로 </span>
+                  <span class="banner_summary_title">프레시지가 알려주는 즐거운 COOKING</span>
+                </p>
+              </div>
+              <div class="card_item">
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_10.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_10.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_10.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+              </div>
+              <div class="card_item_footer">
+                <div class="card_item_footer_more">
+                  <a href="#">
+                    <span class="card_item_footer_more_title">깨끗한 수건 습관을 시작해보세요</span>
+                    <span class="btn_footer_more"></span>
+                  </a>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xs-3">
+            <div class="card">
+              <div class="cardimage">
+                <img class="card-img-top" src="https://image.g9.co.kr/i/2020/07/16/3b1222eb67774a6e.jpg" alt="Card image cap">
+              </div>
+              <div class="card-body_box">
+                <strong class="banner_summary">
+                  <span class="banner_summary_title">언제나 반짝반짝 깔끔한 우리집</span>
+                  <span class="banner_summary_title">스카트와 함께라면 가능해요~</span>
+
+                </strong>
+                <p class="banner_summary_subtitle">
+                  <span class="banner_summary_title">주방 청소부터 옷장 제습까지~</span>
+                  <span class="banner_summary_title">힘들이지 않고도 편리한 청소 생활</span>
+                </p>
+              </div>
+              <div class="card_item">
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_10.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_10.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_10.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+              </div>
+              <div class="card_item_footer">
+                <div class="card_item_footer_more">
+                  <a href="#">
+                    <span class="card_item_footer_more_title">깨끗한 수건 습관을 시작해보세요</span>
+                    <span class="btn_footer_more"></span>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="middlerow2">
+          <div class="col-xs-3">
+            <div class="card" style="padding:0;">
+              <div class="cardimage">
+                <img class="card-img-top" src="https://image.g9.co.kr/i/2020/02/21/9b3b4c32a2f24072.jpg" alt="Card image cap">
+              </div>
+              <div class="card-body_box">
+                <strong class="banner_summary">
+                  <span class="banner_summary_title">뽀송한 아이 피부를 위한</span>
+                  <span class="banner_summary_title">육아 만랩, 프로맘들의 선택은?</span>
+                </strong>
+                <p class="banner_summary_subtitle">
+                  <span class="banner_summary_title">믿고 쓰는 국민 기저귀 하기스와</span>
+                  <span class="banner_summary_title">아기피부를 위한 릴리유 물티슈!</span>
+                </p>
+              </div>
+              <div class="card_item">
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_5.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="https://image.g9.co.kr/i/2020/08/14/8ea4503f20d04571.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_6.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+              </div>
+              <div class="card_item_footer">
+                <div class="card_item_footer_more">
+                  <a href="#">
+                    <span class="card_item_footer_more_title">의자의 품격을 느껴보세요</span>
+                    <span class="btn_footer_more"></span>
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="card">
+              <div class="cardimage">
+                <img class="card-img-top" src="https://image.g9.co.kr/i/2020/08/24/1e2c8b71d3964444.jpg" alt="Card image cap">
+              </div>
+              <div class="card-body_box">
+                <strong class="banner_summary">
+                  <span class="banner_summary_title">글로벌 NO.1 직업체험 테마파크</span>
+                  <span class="banner_summary_title">키자니아 서울/부산 이용권</span>
+                </strong>
+                <p class="banner_summary_subtitle">
+                  <span class="banner_summary_title">카드 10% 즉시할인 혜택까지!</span>
+                  <span class="banner_summary_title">우수 소상공인 특별 할인전</span>
+                </p>
+              </div>
+              <div class="card_item">
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_4.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_10.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_7.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+              </div>
+              <div class="card_item_footer">
+                <div class="card_item_footer_more">
+                  <a href="#">
+                    <span class="card_item_footer_more_title">깨끗한 수건 습관을 시작해보세요</span>
+                    <span class="btn_footer_more"></span>
+                  </a>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-3">
+            <div class="card">
+              <div class="cardimage">
+                <img class="card-img-top" src="https://image.g9.co.kr/i/2020/07/31/479ef8de7c164d49.jpg" alt="Card image cap">
+              </div>
+              <div class="card-body_box">
+                <strong class="banner_summary">
+                  <span class="banner_summary_title">e쿠폰 상품권으로 쇼핑생활</span>
+                  <span class="banner_summary_title">더 건강해지는 생활 </span>
+                </strong>
+                <p class="banner_summary_subtitle">
+                  <span class="banner_summary_title">한국투자증권 온라인 금융상품권 등 </span>
+                  <span class="banner_summary_title">쇼핑의 혜택은 모바일 상품권으로!</span>
+                </p>
+              </div>
+              <div class="card_item">
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_10.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="https://image.g9.co.kr/i/2020/08/21/40b5c942460f4fd5.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_9.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+                              <span class="format_price_sale">
+                                <img src="https://image.g9.co.kr/i/2020/08/28/06449951007a4eb6.png" alt="">
+                              </span>
+
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+              </div>
+              <div class="card_item_footer">
+                <div class="card_item_footer_more">
+                  <a href="#">
+                    <span class="card_item_footer_more_title">깨끗한 수건 습관을 시작해보세요</span>
+                    <span class="btn_footer_more"></span>
+                  </a>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-xs-3">
+            <div class="card">
+              <div class="cardimage">
+                <img class="card-img-top" src="https://image.g9.co.kr/i/2020/05/28/04f59fd1050b4723.jpg" alt="Card image cap">
+              </div>
+              <div class="card-body_box">
+                <strong class="banner_summary">
+                  <span class="banner_summary_title">대륙의 실수, 가성비의 아이콘</span>
+                  <span class="banner_summary_title">봐도봐도 끝없는 매력 샤오미</span>
+
+                </strong>
+                <p class="banner_summary_subtitle">
+                  <span class="banner_summary_title">봐도봐도 끝없는 매력 샤오미</span>
+                  <span class="banner_summary_title">힘들이지 않고도 편리한 청소 생활</span>
+                </p>
+              </div>
+              <div class="card_item">
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_10.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_4.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+                <div class="card_item_group">
+                  <ul class="card_item_list">
+                    <li class="card_item_group_list">
+                      <div class="card_itemcard">
+                        <div class="card_itemcard_img">
+                          <a href="#">
+                            <img class="carditem_img" src="../img/card_7.jpg" alt="" width="100" height="100">
+                          </a>
+                        </div>
+                        <div class="card_itemcard_info">
+                          <div class="card_itemcard_info_major">
+                            <a href="#" class="card_itemcard_info_major_text">
+                              <p class="card_itemcard_info_price">
+                                <span class="format_price">
+                                  <strong class="format_price">19,900원</strong>
+                                </span>
+                              </p>
+                              <span class="format_price_info">
+                                <span>테리파머 호텔수건 무형광 180g 다이아보더 수건 10장 타올</span>
+                              </span>
+
+                            </a>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+              </div>
+              <div class="card_item_footer">
+                <div class="card_item_footer_more">
+                  <a href="#">
+                    <span class="card_item_footer_more_title">깨끗한 수건 습관을 시작해보세요</span>
+                    <span class="btn_footer_more"></span>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="tabmenucontent">
+        <div class="main_tabmenu">
+          <button class="main_tablinks" onclick="open_mainTabmenu(event, 'section_tab_title1')" id="main_tapmenuContentOpen">해외직구</button>
+          <button class="main_tablinks" onclick="open_mainTabmenu(event, 'section_tab_title2')">맛지구</button>
+          <button class="main_tablinks" onclick="open_mainTabmenu(event, 'section_tab_title3')">뭐하지?</button>
+          <button class="main_tablinks" onclick="open_mainTabmenu(event, 'section_tab_title4')">스마일배송</button>
+        </div>
+        <div id="section_tab_title1" class="main_tabmenucontent" style="display:block">
+          <span class="section_tab_title">해외직구 더보기 <span class="section_tab_title_btn"></span></span>
+
+          <section class="regular slider" style="width:1733px; margin:20px 0px 30px -10px">
+            <div>
+              <img src="../img/slick_1.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">70.760원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>일리 캡슐커피 108캡슐(6팩) 골라담기</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_1.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">70,760원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>일리 캡슐커피 108캡슐(6팩) 골라담기</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_1.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">70,760원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>일리 캡슐커피 108캡슐(6팩) 골라담기</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_1.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">70,760원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>일리 캡슐커피 108캡슐(6팩) 골라담기</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_1.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">70,760원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>일리 캡슐커피 108캡슐(6팩) 골라담기</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_1.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">70,760원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>일리 캡슐커피 108캡슐(6팩) 골라담기</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_1.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">70,760원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>일리 캡슐커피 108캡슐(6팩) 골라담기</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_1.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">70,760원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>일리 캡슐커피 108캡슐(6팩) 골라담기</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_2.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">278,910원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>애플 에어팟pro 에어팟 프로 홍콩발송</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_2.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">278,910원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>애플 에어팟pro 에어팟 프로 홍콩발송</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_2.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">278,910원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>애플 에어팟pro 에어팟 프로 홍콩발송</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_2.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">278,910원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>애플 에어팟pro 에어팟 프로 홍콩발송</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_2.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">278,910원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>애플 에어팟pro 에어팟 프로 홍콩발송</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_2.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">278,910원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>애플 에어팟pro 에어팟 프로 홍콩발송</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_2.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">278,910원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>애플 에어팟pro 에어팟 프로 홍콩발송</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_2.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">278,910원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>애플 에어팟pro 에어팟 프로 홍콩발송</span>
+                </span>
+              </div>
+
+            </div>
+          </section>
+
+        </div>
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+        <script src="../js/slick.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript">
+          $(document).on('ready', function() {
+
+            $(".regular").slick({
+              dots: true,
+              infinite: true,
+              slidesToShow: 8,
+              slidesToScroll: 8
+            });
+
+          });
+        </script>
+        <div id="section_tab_title2" class="main_tabmenucontent">
+          <span class="section_tab_title">맛지구 더보기 <span class="section_tab_title_btn"></span></span>
+          <section class="regular slider" style="width:1733px; margin:20px 0px 30px -10px">
+            <div>
+              <img src="../img/slick_3.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">11,490원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>삼립 오븐에구운도넛 20봉</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_3.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">11,490원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>삼립 오븐에구운도넛 20봉</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_3.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">11,490원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>삼립 오븐에구운도넛 20봉</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_3.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">11,490원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>삼립 오븐에구운도넛 20봉</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_3.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">11,490원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>삼립 오븐에구운도넛 20봉</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_3.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">11,490원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>삼립 오븐에구운도넛 20봉</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_3.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">11,490원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>삼립 오븐에구운도넛 20봉</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_3.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">11,490원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>삼립 오븐에구운도넛 20봉</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_4.png">
+
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">21,500원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>신선지구 슈페리어급 노르웨이 생연어 500G</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_4.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">21,500원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>신선지구 슈페리어급 노르웨이 생연어 500G</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_4.png">
+
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">21,500원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>신선지구 슈페리어급 노르웨이 생연어 500G</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_4.png">
+
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">21,500원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>신선지구 슈페리어급 노르웨이 생연어 500G</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_4.png">
+
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">21,500원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>신선지구 슈페리어급 노르웨이 생연어 500G</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_4.png">
+
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">21,500원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>신선지구 슈페리어급 노르웨이 생연어 500G</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_4.png">
+
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">21,500원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>신선지구 슈페리어급 노르웨이 생연어 500G</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_4.png">
+
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">21,500원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>신선지구 슈페리어급 노르웨이 생연어 500G</span>
+                </span>
+              </div>
+
+            </div>
+          </section>
+
+        </div>
+        <div id="section_tab_title3" class="main_tabmenucontent">
+          <span class="section_tab_title">뭐하지? 더보기 <span class="section_tab_title_btn"></span></span>
+          <section class="regular slider" style="width:1733px; margin:20px 0px 30px -10px">
+            <div>
+              <img src="../img/slick_5.png">
+
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">14,000 ~ 31,300</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>한화 아쿠아플라넷 여수 입장권/종합권(아쿠아리움)</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_5.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">14,000 ~ 31,300</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>한화 아쿠아플라넷 여수 입장권/종합권(아쿠아리움)</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_5.png">
+
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">14,000 ~ 31,300</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>한화 아쿠아플라넷 여수 입장권/종합권(아쿠아리움)</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_5.png">
+
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">14,000 ~ 31,300</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>한화 아쿠아플라넷 여수 입장권/종합권(아쿠아리움)</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_5.png">
+
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">14,000 ~ 31,300</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>한화 아쿠아플라넷 여수 입장권/종합권(아쿠아리움)</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_5.png">
+
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">14,000 ~ 31,300</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>한화 아쿠아플라넷 여수 입장권/종합권(아쿠아리움)</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_5.png">
+
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">14,000 ~ 31,300</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>한화 아쿠아플라넷 여수 입장권/종합권(아쿠아리움)</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_5.png">
+
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">14,000 ~ 31,300</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>한화 아쿠아플라넷 여수 입장권/종합권(아쿠아리움)</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_6.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">25,500원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>|강원| 평창 대관령 하늘목장+정동진+강릉항 커피거리 당일여행 /양떼목장/강릉/국내패키지/서울경기出</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_6.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">25,500원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>|강원| 평창 대관령 하늘목장+정동진+강릉항 커피거리 당일여행 /양떼목장/강릉/국내패키지/서울경기出</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_6.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">25,500원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>|강원| 평창 대관령 하늘목장+정동진+강릉항 커피거리 당일여행 /양떼목장/강릉/국내패키지/서울경기出</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_6.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">25,500원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>|강원| 평창 대관령 하늘목장+정동진+강릉항 커피거리 당일여행 /양떼목장/강릉/국내패키지/서울경기出</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_6.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">25,500원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>|강원| 평창 대관령 하늘목장+정동진+강릉항 커피거리 당일여행 /양떼목장/강릉/국내패키지/서울경기出</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_6.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">25,500원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>|강원| 평창 대관령 하늘목장+정동진+강릉항 커피거리 당일여행 /양떼목장/강릉/국내패키지/서울경기出</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_6.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">25,500원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>|강원| 평창 대관령 하늘목장+정동진+강릉항 커피거리 당일여행 /양떼목장/강릉/국내패키지/서울경기出</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_6.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">25,500원</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>|강원| 평창 대관령 하늘목장+정동진+강릉항 커피거리 당일여행 /양떼목장/강릉/국내패키지/서울경기出</span>
+                </span>
+              </div>
+            </div>
+          </section>
+
+        </div>
+        <div id="section_tab_title4" class="main_tabmenucontent">
+          <span class="section_tab_title">스마일배송 더보기 <span class="section_tab_title_btn"></span></span>
+          <section class="regular slider" style="width:1733px; margin:20px 0px 30px -10px">
+            <div>
+              <img src="../img/slick_7.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">22,170</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>고함량 보라지종자유 감마리놀렌산 180캡슐</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_7.png">
+
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">22,170</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>고함량 보라지종자유 감마리놀렌산 180캡슐</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_7.png">
+
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">22,170</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>고함량 보라지종자유 감마리놀렌산 180캡슐</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_7.png">
+
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">22,170</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>고함량 보라지종자유 감마리놀렌산 180캡슐</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_7.png">
+
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">22,170</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>고함량 보라지종자유 감마리놀렌산 180캡슐</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_7.png">
+
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">22,170</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>고함량 보라지종자유 감마리놀렌산 180캡슐</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_7.png">
+
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">22,170</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>고함량 보라지종자유 감마리놀렌산 180캡슐</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_7.png">
+
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">22,170</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>고함량 보라지종자유 감마리놀렌산 180캡슐</span>
+                </span>
+              </div>
+
+            </div>
+            <div>
+              <img src="../img/slick_8.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">19,500</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>종근당건강 수분충전 아쿠아워너비 500mg 56캡슐</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_8.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">19,500</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>종근당건강 수분충전 아쿠아워너비 500mg 56캡슐</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_8.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">19,500</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>종근당건강 수분충전 아쿠아워너비 500mg 56캡슐</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_8.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">19,500</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>종근당건강 수분충전 아쿠아워너비 500mg 56캡슐</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_8.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">19,500</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>종근당건강 수분충전 아쿠아워너비 500mg 56캡슐</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_8.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">19,500</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>종근당건강 수분충전 아쿠아워너비 500mg 56캡슐</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_8.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">19,500</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>종근당건강 수분충전 아쿠아워너비 500mg 56캡슐</span>
+                </span>
+              </div>
+            </div>
+            <div>
+              <img src="../img/slick_8.png">
+              <div class="slider_info">
+                <p class="slider_price">
+                  <span class="format_price">
+                    <strong class="format_price">19,500</strong>
+                  </span>
+                </p>
+                <span class="format_price_info">
+                  <span>종근당건강 수분충전 아쿠아워너비 500mg 56캡슐</span>
+                </span>
+              </div>
+            </div>
+          </section>
+
+        </div>
+      </div>
+
+      <div class="main_linebanner">
+        <div class="linebanner">
+          <div class="linebanner_img">
+            <img src="https://image.g9.co.kr/i/2020/04/03/46487d637dd9461e.jpg" alt="">
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="main_hotdeal">
+        <div class="hotdael_corner">
+          <div class="corner_title">
+            <h3 class="corner_header_title">
+              핫딜
+            </h3>
+            <span class="badge_new"></span>
+          </div>
+
+          <div class="corner_body">
+            <div class="hotdeal_list">
+              <div class="row">
+                <div class="hotdeal_card">
+                  <div class="cardimage">
+                    <img class="hoteal_card-img-top" src="../img/banner_card_1.png" alt="Card image cap" width="319.39" height="319.39">
+                  </div>
+                  <div class="hotdeal_cardinfo">
+                    <strong class="banner_summary">
+                      <span class="banner_summary_title">33,900원</span>
+                    </strong>
+                    <p class="banner_summary_subtitle">
+                      <span class="hotdeal_summary_title">식약처 허가제품 국내생산</span>
+                      <span class="hotdeal_summary_title">퓨어커버 KF94 마스크/대형/50매/개당680원</span>
+                      <span class="format_price_sale">
+                        <span class="badge_overseas"></span>
+                      </span>
+                    </p>
+                    <div class="hotdeal_action" style="margin-top: 30px;">
+                      <ul class="hotdeal_item_card_aciton">
+                        <li class="action_zzim">
+                          <button class="hotdeal_favorite" name="button"></button>
+                          <span class="hotdeal_favorite_txt">
+                            <b class="hotdeal_favorite_cnt">161</b>
+                            <b class="hotdeal_favorite_text">찜</b>
+                          </span>
+                        </li>
+                        <li class="action_buyaccount">
+                          <span class="hotdeal_favorite_txt">
+                            <b class="hotdeal_favorite_cnt">3,039</b>
+                            <b class="hotdeal_favorite_text">구매</b>
+                          </span>
+
+                        </li>
+
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="hotdeal_card">
+                  <div class="cardimage">
+                    <img class="hoteal_card-img-top" src="../img/banner_card_1.png" alt="Card image cap" width="319.39" height="319.39">
+                  </div>
+                  <div class="hotdeal_cardinfo">
+                    <strong class="banner_summary">
+                      <span class="banner_summary_title">33,900원</span>
+                    </strong>
+                    <p class="banner_summary_subtitle">
+                      <span class="hotdeal_summary_title">식약처 허가제품 국내생산</span>
+                      <span class="hotdeal_summary_title">퓨어커버 KF94 마스크/대형/50매/개당680원</span>
+                    </p>
+                    <div class="hotdeal_action">
+                      <ul class="hotdeal_item_card_aciton">
+                        <li class="action_zzim">
+                          <button class="hotdeal_favorite" name="button"></button>
+                          <span class="hotdeal_favorite_txt">
+                            <b class="hotdeal_favorite_cnt">161</b>
+                            <b class="hotdeal_favorite_text">찜</b>
+                          </span>
+                        </li>
+                        <li class="action_buyaccount">
+                          <span class="hotdeal_favorite_txt">
+                            <b class="hotdeal_favorite_cnt">3,039</b>
+                            <b class="hotdeal_favorite_text">구매</b>
+                          </span>
+
+                        </li>
+
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="hotdeal_card">
+                  <div class="cardimage">
+                    <img class="hoteal_card-img-top" src="../img/banner_card_1.png" alt="Card image cap" width="319.39" height="319.39">
+                  </div>
+                  <div class="hotdeal_cardinfo">
+                    <strong class="banner_summary">
+                      <span class="banner_summary_title">33,900원</span>
+                    </strong>
+                    <p class="banner_summary_subtitle">
+                      <span class="hotdeal_summary_title">식약처 허가제품 국내생산</span>
+                      <span class="hotdeal_summary_title">퓨어커버 KF94 마스크/대형/50매/개당680원</span>
+                    </p>
+                    <div class="hotdeal_action">
+                      <ul class="hotdeal_item_card_aciton">
+                        <li class="action_zzim">
+                          <button class="hotdeal_favorite" name="button"></button>
+                          <span class="hotdeal_favorite_txt">
+                            <b class="hotdeal_favorite_cnt">161</b>
+                            <b class="hotdeal_favorite_text">찜</b>
+                          </span>
+                        </li>
+                        <li class="action_buyaccount">
+                          <span class="hotdeal_favorite_txt">
+                            <b class="hotdeal_favorite_cnt">3,039</b>
+                            <b class="hotdeal_favorite_text">구매</b>
+                          </span>
+
+                        </li>
+
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="hotdeal_card">
+                  <div class="cardimage">
+                    <img class="hoteal_card-img-top" src="../img/banner_card_1.png" alt="Card image cap" width="319.39" height="319.39">
+                  </div>
+                  <div class="hotdeal_cardinfo">
+                    <strong class="banner_summary">
+                      <span class="banner_summary_title">33,900원</span>
+                    </strong>
+                    <p class="banner_summary_subtitle">
+                      <span class="hotdeal_summary_title">식약처 허가제품 국내생산</span>
+                      <span class="hotdeal_summary_title">퓨어커버 KF94 마스크/대형/50매/개당680원</span>
+                      <span class="format_price_sale" style="margin-top: 10px;">
+                        <img src="https://image.g9.co.kr/i/2020/08/28/06449951007a4eb6.png" alt="">
+                      </span>
+                    </p>
+                    <div class="hotdeal_action">
+                      <ul class="hotdeal_item_card_aciton">
+                        <li class="action_zzim" style="margin-top: 6px;">
+                          <button class="hotdeal_favorite" name="button"></button>
+                          <span class="hotdeal_favorite_txt">
+                            <b class="hotdeal_favorite_cnt">161</b>
+                            <b class="hotdeal_favorite_text">찜</b>
+                          </span>
+                        </li>
+                        <li class="action_buyaccount" style="margin-top: 6px;">
+                          <span class="hotdeal_favorite_txt">
+                            <b class="hotdeal_favorite_cnt">3,039</b>
+                            <b class="hotdeal_favorite_text">구매</b>
+                          </span>
+
+                        </li>
+
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="hotdeal_card">
+                  <div class="cardimage">
+                    <img class="hoteal_card-img-top" src="../img/banner_card_1.png" alt="Card image cap" width="319.39" height="319.39">
+                  </div>
+                  <div class="hotdeal_cardinfo">
+                    <strong class="banner_summary">
+                      <span class="banner_summary_title">33,900원</span>
+                    </strong>
+                    <p class="banner_summary_subtitle">
+                      <span class="hotdeal_summary_title">식약처 허가제품 국내생산</span>
+                      <span class="hotdeal_summary_title">퓨어커버 KF94 마스크/대형/50매/개당680원</span>
+                    </p>
+                    <div class="hotdeal_action">
+                      <ul class="hotdeal_item_card_aciton">
+                        <li class="action_zzim">
+                          <button class="hotdeal_favorite" name="button"></button>
+                          <span class="hotdeal_favorite_txt">
+                            <b class="hotdeal_favorite_cnt">161</b>
+                            <b class="hotdeal_favorite_text">찜</b>
+                          </span>
+                        </li>
+                        <li class="action_buyaccount">
+                          <span class="hotdeal_favorite_txt">
+                            <b class="hotdeal_favorite_cnt">3,039</b>
+                            <b class="hotdeal_favorite_text">구매</b>
+                          </span>
+
+                        </li>
+
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="hotdeal_card">
+                  <div class="cardimage">
+                    <img class="hoteal_card-img-top" src="../img/banner_card_2.png" alt="Card image cap" width="319.39" height="319.39">
+                  </div>
+                  <div class="hotdeal_cardinfo">
+                    <strong class="banner_summary">
+                      <span class="banner_summary_title">15,000원</span>
+                    </strong>
+                    <p class="banner_summary_subtitle">
+                      <span class="hotdeal_summary_title">마몽드</span>
+                      <span class="hotdeal_summary_title">로즈워터 토너 250 ml x 2 /스킨/토너_공식몰</span>
+                      <span class="format_price_sale" style="margin-top: 10px;">
+                        <img src="https://image.g9.co.kr/i/2020/08/28/06449951007a4eb6.png" alt="">
+                      </span>
+                    </p>
+                    <div class="hotdeal_action">
+                      <ul class="hotdeal_item_card_aciton">
+                        <li class="action_zzim" style="margin-top: 6px;">
+                          <button class="hotdeal_favorite" name="button"></button>
+                          <span class="hotdeal_favorite_txt">
+                            <b class="hotdeal_favorite_cnt">19</b>
+                            <b class="hotdeal_favorite_text">찜</b>
+                          </span>
+                        </li>
+                        <li class="action_buyaccount" style="margin-top: 6px;">
+                          <span class="hotdeal_favorite_txt">
+                            <b class="hotdeal_favorite_cnt">2,060</b>
+                            <b class="hotdeal_favorite_text">구매</b>
+                          </span>
+
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="action_store" style="margin-top: 50px;">
+                      <a href="#">
+                        <img src="https://image.g9.co.kr/i/2019/11/19/58726765d68740fa.jpg" alt="">
+                        <span class="store_footer_text">스토어</span>
+                      </a>
+                    </div>
+
+                    <div class="hotdeal_store_sale">
+                      <a href="#">
+                        <span class="badge_tag"></span>
+                        <span class="hotdeal_store_sale_text">아모레 퍼시픽 15% 쿠폰</span>
+                        <span class="btn_footer_more" style="position:relative; left:20px"></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="hotdeal_card">
+                  <div class="cardimage">
+                    <img class="hoteal_card-img-top" src="../img/banner_card_2.png" alt="Card image cap" width="319.39" height="319.39">
+                  </div>
+                  <div class="hotdeal_cardinfo">
+                    <strong class="banner_summary">
+                      <span class="banner_summary_title">15,000원</span>
+                    </strong>
+                    <p class="banner_summary_subtitle">
+                      <span class="hotdeal_summary_title">마몽드</span>
+                      <span class="hotdeal_summary_title">로즈워터 토너 250 ml x 2 /스킨/토너_공식몰</span>
+                      <span class="format_price_sale" style="margin-top: 10px;">
+                        <img src="https://image.g9.co.kr/i/2020/08/28/06449951007a4eb6.png" alt="">
+                      </span>
+                    </p>
+                    <div class="hotdeal_action">
+                      <ul class="hotdeal_item_card_aciton">
+                        <li class="action_zzim" style="margin-top: 6px;">
+                          <button class="hotdeal_favorite" name="button"></button>
+                          <span class="hotdeal_favorite_txt">
+                            <b class="hotdeal_favorite_cnt">19</b>
+                            <b class="hotdeal_favorite_text">찜</b>
+                          </span>
+                        </li>
+                        <li class="action_buyaccount" style="margin-top: 6px;">
+                          <span class="hotdeal_favorite_txt">
+                            <b class="hotdeal_favorite_cnt">2,060</b>
+                            <b class="hotdeal_favorite_text">구매</b>
+                          </span>
+
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="action_store" style="margin-top: 50px;">
+                      <a href="#">
+                        <img src="https://image.g9.co.kr/i/2019/11/19/58726765d68740fa.jpg" alt="">
+                        <span class="store_footer_text">스토어</span>
+                      </a>
+                    </div>
+
+                    <div class="hotdeal_store_sale">
+                      <a href="#">
+                        <span class="badge_tag"></span>
+                        <span class="hotdeal_store_sale_text">아모레 퍼시픽 15% 쿠폰</span>
+                        <span class="btn_footer_more" style="position:relative; left:20px"></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="hotdeal_card">
+                  <div class="cardimage">
+                    <img class="hoteal_card-img-top" src="../img/banner_card_2.png" alt="Card image cap" width="319.39" height="319.39">
+                  </div>
+                  <div class="hotdeal_cardinfo">
+                    <strong class="banner_summary">
+                      <span class="banner_summary_title">15,000원</span>
+                    </strong>
+                    <p class="banner_summary_subtitle">
+                      <span class="hotdeal_summary_title">마몽드</span>
+                      <span class="hotdeal_summary_title">로즈워터 토너 250 ml x 2 /스킨/토너_공식몰</span>
+                      <span class="format_price_sale" style="margin-top: 10px;">
+                        <img src="https://image.g9.co.kr/i/2020/08/28/06449951007a4eb6.png" alt="">
+                      </span>
+                    </p>
+                    <div class="hotdeal_action">
+                      <ul class="hotdeal_item_card_aciton">
+                        <li class="action_zzim" style="margin-top: 6px;">
+                          <button class="hotdeal_favorite" name="button"></button>
+                          <span class="hotdeal_favorite_txt">
+                            <b class="hotdeal_favorite_cnt">19</b>
+                            <b class="hotdeal_favorite_text">찜</b>
+                          </span>
+                        </li>
+                        <li class="action_buyaccount" style="margin-top: 6px;">
+                          <span class="hotdeal_favorite_txt">
+                            <b class="hotdeal_favorite_cnt">2,060</b>
+                            <b class="hotdeal_favorite_text">구매</b>
+                          </span>
+
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="action_store" style="margin-top: 50px;">
+                      <a href="#">
+                        <img src="https://image.g9.co.kr/i/2019/11/19/58726765d68740fa.jpg" alt="">
+                        <span class="store_footer_text">스토어</span>
+                      </a>
+                    </div>
+
+                    <div class="hotdeal_store_sale">
+                      <a href="#">
+                        <span class="badge_tag"></span>
+                        <span class="hotdeal_store_sale_text">아모레 퍼시픽 15% 쿠폰</span>
+                        <span class="btn_footer_more" style="position:relative; left:20px"></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="hotdeal_card">
+                  <div class="cardimage">
+                    <img class="hoteal_card-img-top" src="../img/banner_card_2.png" alt="Card image cap" width="319.39" height="319.39">
+                  </div>
+                  <div class="hotdeal_cardinfo">
+                    <strong class="banner_summary">
+                      <span class="banner_summary_title">15,000원</span>
+                    </strong>
+                    <p class="banner_summary_subtitle">
+                      <span class="hotdeal_summary_title">마몽드</span>
+                      <span class="hotdeal_summary_title">로즈워터 토너 250 ml x 2 /스킨/토너_공식몰</span>
+                      <span class="format_price_sale" style="margin-top: 10px;">
+                        <img src="https://image.g9.co.kr/i/2020/08/28/06449951007a4eb6.png" alt="">
+                      </span>
+                    </p>
+                    <div class="hotdeal_action">
+                      <ul class="hotdeal_item_card_aciton">
+                        <li class="action_zzim" style="margin-top: 6px;">
+                          <button class="hotdeal_favorite" name="button"></button>
+                          <span class="hotdeal_favorite_txt">
+                            <b class="hotdeal_favorite_cnt">19</b>
+                            <b class="hotdeal_favorite_text">찜</b>
+                          </span>
+                        </li>
+                        <li class="action_buyaccount" style="margin-top: 6px;">
+                          <span class="hotdeal_favorite_txt">
+                            <b class="hotdeal_favorite_cnt">2,060</b>
+                            <b class="hotdeal_favorite_text">구매</b>
+                          </span>
+
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="action_store" style="margin-top: 50px;">
+                      <a href="#">
+                        <img src="https://image.g9.co.kr/i/2019/11/19/58726765d68740fa.jpg" alt="">
+                        <span class="store_footer_text">스토어</span>
+                      </a>
+                    </div>
+
+                    <div class="hotdeal_store_sale">
+                      <a href="#">
+                        <span class="badge_tag"></span>
+                        <span class="hotdeal_store_sale_text">아모레 퍼시픽 15% 쿠폰</span>
+                        <span class="btn_footer_more" style="position:relative; left:20px"></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="hotdeal_card">
+                  <div class="cardimage">
+                    <img class="hoteal_card-img-top" src="../img/banner_card_2.png" alt="Card image cap" width="319.39" height="319.39">
+                  </div>
+                  <div class="hotdeal_cardinfo">
+                    <strong class="banner_summary">
+                      <span class="banner_summary_title">15,000원</span>
+                    </strong>
+                    <p class="banner_summary_subtitle">
+                      <span class="hotdeal_summary_title">마몽드</span>
+                      <span class="hotdeal_summary_title">로즈워터 토너 250 ml x 2 /스킨/토너_공식몰</span>
+                      <span class="format_price_sale" style="margin-top: 10px;">
+                        <img src="https://image.g9.co.kr/i/2020/08/28/06449951007a4eb6.png" alt="">
+                      </span>
+                    </p>
+                    <div class="hotdeal_action">
+                      <ul class="hotdeal_item_card_aciton">
+                        <li class="action_zzim" style="margin-top: 6px;">
+                          <button class="hotdeal_favorite" name="button"></button>
+                          <span class="hotdeal_favorite_txt">
+                            <b class="hotdeal_favorite_cnt">19</b>
+                            <b class="hotdeal_favorite_text">찜</b>
+                          </span>
+                        </li>
+                        <li class="action_buyaccount" style="margin-top: 6px;">
+                          <span class="hotdeal_favorite_txt">
+                            <b class="hotdeal_favorite_cnt">2,060</b>
+                            <b class="hotdeal_favorite_text">구매</b>
+                          </span>
+
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="action_store" style="margin-top: 50px;">
+                      <a href="#">
+                        <img src="https://image.g9.co.kr/i/2019/11/19/58726765d68740fa.jpg" alt="">
+                        <span class="store_footer_text">스토어</span>
+                      </a>
+                    </div>
+
+                    <div class="hotdeal_store_sale">
+                      <a href="#">
+                        <span class="badge_tag"></span>
+                        <span class="hotdeal_store_sale_text">아모레 퍼시픽 15% 쿠폰</span>
+                        <span class="btn_footer_more" style="position:relative; left:20px"></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            <div class="hotdeal_more">
+              <button id="hotdeal_more_btn"></button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="footer">
+        <div class="footermenu">
+          <ul class="f_list">
+            <li clas="f_menu"><a href="#" class="link_area"><span class="menu_text">공지사항</span></a></li>
+            <li clas="f_menu"><a href="#" class="link_area"><span class="menu_text">G9 판매안내</span></a></li>
+            <li clas="f_menu"><a href="#" class="link_area"><span class="menu_text">이용약관</span></a></li>
+            <li clas="f_menu"><a href="#" class="link_area"><span class="menu_text">전자금융거래약관</span></a></li>
+            <li clas="f_menu"><a href="#" class="link_area"><span class="menu_text" style="font-weight:bold;">개인정보처리방침</span></a></li>
+            <li clas="f_menu"><a href="#" class="link_area"><span class="menu_text">청소년보호정책</span></a></li>
+            <li clas="f_menu"><a href="#" class="link_area"><span class="menu_text">G마켓</span></a></li>
+          </ul>
+        </div>
+        <div class="footerinfo">
+          <div class="helpcenter">
+            <h2>
+              <strong class="motto">
+                지구에서
+                <br>
+                가장 친절한 고객센터
+              </strong>
+              <span class="tel">
+                1644-5702
+              </span>
+            </h2>
+
+            <dl class="desc">
+              <dt class="desc-title">상담가능시간</dt>
+              <dd class="desc-cont">오전9시-오후6시 토요일,공휴일 휴무</dd>
+
+              <dt class="desc-title">주소</dt>
+              <dd class="desc-cont">경기도 부천시 원미구 상동 461 투나 6층</dd>
+
+              <dt class="desc-title">E-Mail</dt>
+              <dd class="desc-cont">g9_help@g9.co.kr</dd>
+
+              <dd class="desc-cont">
+                <span class="desc_text"><a href="#">분쟁처리절차</a></span>
+
+              </dd>
+
+            </dl>
+
+          </div>
+          <div class="companyinfo">
+            <div class="company_info">
+              <h2 class="section_title">이베이코리아 유한책임회사</h2>
+              <div>
+                <dl class="desc">
+                  <dd class="desc-cont">서울시 강남구 테헤란로 152 (역삼동 강남파이낸스센터)</dd>
+                  <dd class="desc-cont">업무집행자 : 변광윤 Fax : 02-589-8842 사업자정보확인</dd>
+                  <dd class="desc-cont">통신판매업신고 : 강남 10630호</dd>
+                </dl>
+              </div>
+            </div>
+
+            <div class="company_cs">
+              <h2 class="section_title">전자금융분쟁처리 안내더보기</h2>
+              <div>
+                <dl class="desc">
+                  <dt class="desc-title">TEL</dt>
+                  <dd class="desc-cont">1644 - 5702</dd>
+                  <dt class="desc-title">Fax</dt>
+                  <dd class="desc-cont">02-589-8844</dd>
+                  <dt class="desc-title">Mail</dt>
+                  <dd class="desc-cont">gmk_cs@corp.gmarket.co.kr</dd>
+                </dl>
+                <div class="company_auth">
+                  <h2 class="section_title"><a href="#">저작권 침해 신고하기 </a> </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footercopyright">
+          <p class="desc">
+            G9는 G마켓에서 만든 패밀리사이트입니다. <br>
+            이베이코리아 유한책임회사 사이트의 상품/판매자/쇼핑 정보, 콘텐츠, UI 등에 대한 무단 복제, 전송, 배포, 스크래핑 등의 행위는 저작권법, 콘텐츠산업진흥법 등에 의하여 엄격히 금지됩니다.
+            <a href="#" style="color:#808080; font-weight:400;">콘텐츠 산업 진흥법에 따른 표시</a>
+            <br>
+            G9는 통신판매중개자이며 통신판매 당사자가 아닙니다. 따라서 G9는 상품, 거래정보 및 거래에 대하여 책임을 지지 않습니다.
+          </p>
+          <p class="copyright">Copyrightⓒ eBay Korea LLC All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
